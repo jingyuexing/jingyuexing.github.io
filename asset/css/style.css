@@ -18,3 +18,10 @@ body{
 .head{
 	display: flex;
 }
+.status{
+	width: 80%;
+	text-align: center;
+}
+.status > .text{
+	font-size: 2em;
+}
