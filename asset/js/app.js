@@ -15,5 +15,3 @@ const MyClass=(function(){
 	}
 	return {add:Add};
 })();
-BM-2cUhFY6Ay2LSZZTJ1por17uRWa2oXGQKuK
-add:1NnCNCau8QnJDzkZqX9KMdqn4SenArGwRv:mrv
