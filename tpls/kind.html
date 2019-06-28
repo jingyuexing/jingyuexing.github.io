@@ -1,0 +1,5 @@
+<div class="capsule" ng-repeat="data in link">
+	<div class="icon material-icons" style="line-height:60px;">timeline</div>
+	<div class="title"><a href="{{data.link}}">{{data.name}}</a></div>
+	<div class="tag" ng-repeat="tag in data.tag">{{tag}}</div>
+</div>

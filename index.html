@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="main">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="icon" href="./asset/img/FLASH.png">
+	<link rel="stylesheet" href="asset/lib/material-design-icons/material-icons.css">
+	<link rel="stylesheet" href="asset/lib/mdl/material.min.css">
+	<script src="asset/lib/mdl/material.min.js"></script>
+	<link rel="stylesheet" href="asset/css/style.css">
+	<script src="framework/angular-1.7.5/angular.min.js"></script>
+	<script src="framework/angular-1.7.5/angular-route.min.js"></script>
+  <script src="src/main.js"></script>
+  <script src="src/app.js"></script>
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title"><div class="icon material-icons">import_contacts</div>个人站点</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="#!/yul">娱乐</a>
+        <a class="mdl-navigation__link" href="#!/hot">热点</a>
+        <a class="mdl-navigation__link" href="#!/sport">体育</a>
+        <a class="mdl-navigation__link" href="#!/edu">教育</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">个人站点</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="#!/home"><i class="icon material-icons">home</i>首页</a>
+      <a class="mdl-navigation__link" href="#!/user"><i class="icon material-icons">account_circle</i>用户</a>
+      <a class="mdl-navigation__link" href="#!/kind"><i class="icon material-icons">reorder</i>分类</a>
+      <a class="mdl-navigation__link" href="#!/aboutme">关于我</a>
+    </nav>
+  </div>
+  <!-- <div class="navbar">
+    <div class="navbar-text">
+      回到头部
+    </div>
+  </div> -->
+  <main class="mdl-layout__content">
+    <div class="page-content" ng-view>
+    	<!-- my page content in here -->
+    </div>
+  </main>
+</div>
+<script src="src/edu.js"></script>
+<script src="src/me.js"></script>
+<script src="src/testApp.js"></script>
+<script src="src/kind.js"></script>
+<script src="src/hot.js"></script>
+<script src="src/test.js"></script>
+<script src="src/me.js"></script>
+<script src="src/home.js"></script>
+<script src="src/sport.js"></script>
+<script src="src/yul.js"></script>
+<script src="src/user.js"></script>
+<script src="src/scoreline.js"></script>
+<script src="src/msg.js"></script>
+<script src="src/login.js"></script>
+<script src="src/wether.js"></script>
+</body>
+</html>
