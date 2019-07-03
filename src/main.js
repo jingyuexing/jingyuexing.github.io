@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-31 21:46:27
 * @Last Modified by:   Jingyuexing
-* @Last Modified time: 2019-06-28 17:47:08
+* @Last Modified time: 2019-07-03 16:34:13
 */
 /**
 * router Module
@@ -99,4 +99,4 @@ switch (location.hash.match(str)[0]) {
         break;
 }
 })();
-console.log("特么又来看源码！")
+console.log("%c特么又来看源码！","background-color:#2eb7ed;padding:2px 4px;color:#fff;")
