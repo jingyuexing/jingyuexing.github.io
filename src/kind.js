@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-31 23:58:56
 * @Last Modified by:   Jingyuexing
-* @Last Modified time: 2019-06-28 17:16:00
+* @Last Modified time: 2019-07-03 16:04:10
 */
 main.controller('kindCtrl', ['$scope',"$http", function($scope,$http){
 	$http({
@@ -10,7 +10,7 @@ main.controller('kindCtrl', ['$scope',"$http", function($scope,$http){
 		method:"GET",
 		type:"json"
 	}).then(function(res){
-		$scope.link = eval(res.data);
+		$scope.link = angular.fromJson(res.data);
 	}, function(res){
 		console.log("失败!");
 	});
