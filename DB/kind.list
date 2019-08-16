@@ -43,6 +43,7 @@
     {"link":"https://www.numpy.org/","name":"Numpy","tag":["库","python"]},
     {"link":"https://developer.mozilla.org/","name":"MDN文档","tag":["开发","文档"]},
     {"link":"http://www.52studyit.com/","name":"我爱学IT","tag":["社区","论坛"]},
+    {"link":"https://sci-hub.tw/","name":"Sci-Hub","tag":["论文","免费"]},
     {"link":"http://www.freefullpdf.com","name":"freefullpdf","tag":["免费","论文"]},
     {"link":"https://freepapers.net/","name":"freepapers","tag":["免费","论文"]},
     { "link": "https://material.io/", "name": "Material" ,"tag":["设计"]},
