@@ -11,6 +11,7 @@ main.controller('kindCtrl', ['$scope',"$http", function($scope,$http){
 		type:"json"
 	}).then(function(res){
 		$scope.link = angular.fromJson(res.data);
+		console.log($scope.link);
 	}, function(res){
 		console.log("失败!");
 	});

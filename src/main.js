@@ -99,4 +99,4 @@ switch (location.hash.match(str)[0]) {
         break;
 }
 })();
-console.log("%c特么又来看源码!","background-color:#2eb7ed;padding:4px 6px;color:#fff;border-radius:4px 4px 4px 4px;font-size:2em;","paddingright:6px;")
+console.log("%c特么又来看源码!","background-color:#2eb7ed;padding:4px 6px;color:#fff;border-radius:4px 4px 4px 4px;font-size:2em;")
