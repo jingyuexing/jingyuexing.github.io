@@ -7,7 +7,7 @@
     { "link": "https://twitter.com/", "name": "推特", "tag": ["社交"] },
 	{ "link": "https://www.zhihu.com", "name": "知乎", "tag": ["问答社区"] },
     {"link":"https://www.quora.com/","name":"Quora","tag":["问答社区"]},
-    { "link": "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5", "name": "How Wiki", "tag": ["社区"] },
+    { "link": "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5", "name": "How Wiki", "tag": ["问答社区"] },
     {"link":"https://www.amap.com/","name":"高德地图","tag":["导航","电子地图"]},
 	{ "link": "https://stackoverflow.com/", "name": "stackoverflow", "tag": ["问答社区","IT"] },
     { "link": "https://www.zcool.com.cn/", "name": "站酷" ,"tag":["设计"]},
