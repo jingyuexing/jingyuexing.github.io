@@ -55,7 +55,7 @@ main.config(['$routeProvider',function($routeProvider) {
     }).when("/wether",{
         templateUrl:"tpls/wether.html",
         controller:"wetherCtrl"
-    }).otherwise("/home");
+    }).otherwise("/kind");
 }]);
 (function(){
     var str = /(kind|test|login|msg|home|yul|sport|hot|edu|user|wether|aboutme)/;
