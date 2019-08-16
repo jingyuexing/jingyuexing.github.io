@@ -39,6 +39,7 @@
     {"link":"https://www.sublimetext.com/","name":"Sublime","tag":["编辑器","工具"]},
     {"link":"https://code.visualstudio.com/","name":"VSCode","tag":["工具","编辑器"]},
     {"link":"https://unsplash.com/","name":"Unsplash","tag":["图片","设计"]},
+    {"link":"https://www.lfd.uci.edu/~gohlke/pythonlibs/","name":"Lib","tag":["python","库"]},
     {"link":"https://matplotlib.org","name":"Matplotlib","tag":["库","python"]},
     {"link":"https://tensorflow.google.cn/","name":"TensorFlow","tag":["库","python"]},
     {"link":"https://www.numpy.org/","name":"Numpy","tag":["库","python"]},
