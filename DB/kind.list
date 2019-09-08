@@ -1,6 +1,6 @@
 [
 	{ "link": "https://www.google.com/ncr", "name": "Google", "tag": ["搜索引擎"] },
-	{ "link": "https:www.baidu.com", "name": "百度", "tag": ["搜索引擎"] },
+	{ "link": "https://www.baidu.com", "name": "百度", "tag": ["搜索引擎"] },
 	{ "link": "https://duckduckgo.com/", "name": "Duckduckgo", "tag": ["搜索引擎"] },
 	{ "link": "https://mijisou.com/", "name": "密迹搜索", "tag": ["搜索引擎"] },
 	{"link":"https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5","name":"维基","tag":["百科"]},
