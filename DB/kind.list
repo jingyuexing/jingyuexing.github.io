@@ -48,6 +48,7 @@
     {"link":"http://www.freefullpdf.com","name":"Freefullpdf","tag":["免费","论文"]},
     {"link":"https://freepapers.net/","name":"Freepapers","tag":["免费","论文"]},
     { "link": "https://arxiv.org/", "name": "Arxiv", "tag": ["免费","论文"] },
+    {"link":"https://lunwen.im/","name":"喵咪论文","tag":["论文","免费"]},
     {"link":"http://findarticles.com/","name":"Findarticles","tag":["论文","免费"]},
     {"link":"https://www.intechopen.com/","name":"intechopen","tag":["文献","论文","免费"]},
     {"link":"https://sci-hub.tw/","name":"Sci-Hub","tag":["免费","论文"]},
