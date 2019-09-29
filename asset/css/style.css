@@ -254,3 +254,10 @@ div.icon,i.icon{
 .photos:hover{
 	animation: 1.2s border-transform infinite;
 }
+@media (max-width: 780px) and (min-width: 600px) {
+    .capsule{
+        width:100%;
+        margin-top:3px;
+        margin-bottom: 3px;
+    }
+}
