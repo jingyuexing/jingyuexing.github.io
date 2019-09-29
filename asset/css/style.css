@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   1941755817@qq.com
-* @Last Modified time: 2019-09-30 02:19:19
+* @Last Modified time: 2019-09-30 02:22:56
 */
 body{
     width:100%;
@@ -254,7 +254,7 @@ div.icon,i.icon{
 .photos:hover{
     animation: 1.2s border-transform infinite;
 }
-@media (min-width: 400px) and (max-width: 780px)  {
+@media (min-width: 100px) and (max-width: 780px)  {
     .capsule{
         width:80%;
         margin-top:3px;
