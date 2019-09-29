@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   1941755817@qq.com
-* @Last Modified time: 2019-09-30 02:08:24
+* @Last Modified time: 2019-09-30 02:19:19
 */
 body{
     width:100%;
@@ -254,14 +254,18 @@ div.icon,i.icon{
 .photos:hover{
     animation: 1.2s border-transform infinite;
 }
-@media (max-width: 780px) and (min-width: 600px) {
+@media (min-width: 400px) and (max-width: 780px)  {
     .capsule{
-        width:100%;
+        width:80%;
         margin-top:3px;
         margin-bottom: 3px;
     }
     .capsule .title{
-        font-size:10px;
+        margin-left: 4px;
+        font-size: 1.2em;
+    }
+    .capsule .tag{
+        display: none;
     }
     .page-content, .content{
         width:100%;
