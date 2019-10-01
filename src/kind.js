@@ -1,12 +1,13 @@
 /*
 * @Author: Jingyuexing
 * @Date:   2018-12-31 23:58:56
-* @Last Modified by:   Jingyuexing
-* @Last Modified time: 2019-07-03 16:04:10
+* @Last Modified by:   jingyuexing
+* @Last Modified time: 2019-10-01 12:26:56
 */
 main.controller('kindCtrl', ['$scope',"$http", function($scope,$http){
+	var times = new Date();
 	$http({
-		url:"./DB/kind.list",
+		url:"./DB/kind.list?t="+times,
 		method:"GET",
 		type:"json"
 	}).then(function(res){
