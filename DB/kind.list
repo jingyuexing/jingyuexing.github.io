@@ -62,6 +62,7 @@
     {"link":"https://sci-hub.tw/","name":"Sci-Hub","tag":["免费","论文"]},
     { "link": "https://material.io/", "name": "Material" ,"tag":["设计"]},
     {"link":"https://www.pinterest.com/","name":"Pinterest","tag":["设计"]},
+    { "link":"https://www.skypixel.com/","name":"天空之城","tag":["图片","视频","航拍"]},
     {"link":"https://pixabay.com/zh/","name":"Pixabay","tag":["免费","图片"]},
     {"link":"https://unsplash.com/","name":"Unsplash","tag":["图片","设计"]},
     {"link":"https://logopond.com/","name":"Logopond","tag":["设计","图片","免费"]},
