@@ -31,6 +31,8 @@
     {"link":"https://www.lfd.uci.edu/~gohlke/pythonlibs/","name":"Python包","tag":["python","库","windows"]},
     { "link": "https://jquery.com/", "name": "jQuery", "tag": ["库","框架"] },
     { "link": "https://www.mongodb.com/", "name": "MongoDB", "tag": ["官网","数据库"] },
+    {"link":"http://hao.199it.com/","name":"大数据导航","tag":["数据查询","数据"]},
+    {"link":"https://demo.glyptodon.com/#/client/ZGVtbwBjAGRlbW8=","name":"Glyptodon Enterprise Demo","tag":["服务器"]},
     { "link": "https://dribbble.com", "name": "Dribbble", "tag": ["设计"] },
     { "link": "https://github.com", "name": "Github", "tag": ["开源社区"] },
     { "link": "https://gitee.com/", "name": "码云", "tag": ["开源社区"] },
