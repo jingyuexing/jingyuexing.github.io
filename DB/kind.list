@@ -33,6 +33,7 @@
     { "link": "https://dribbble.com", "name": "Dribbble", "tag": ["设计"] },
     { "link": "https://github.com", "name": "Github", "tag": ["开源社区"] },
     { "link": "https://gitee.com/", "name": "码云", "tag": ["开源社区"] },
+    {"link":"http://www.nicetool.net","name":"Nicetool","tag":["工具","在线工具"]}
     {"link":"https://www.jpeg.io/","name":"在线图片格式转换","tag":["工具","在线工具"]},
     {"link":"https://tool.imiku.me","name":"MikuTools工具集合","tag":["工具","在线工具"]},
     {"link":"https://tool.lu/","name":"在线工具","tag":["工具","在线工具"]},
