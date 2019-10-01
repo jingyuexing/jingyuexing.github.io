@@ -2,10 +2,11 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-31 23:58:56
 * @Last Modified by:   jingyuexing
-* @Last Modified time: 2019-10-01 12:26:56
+* @Last Modified time: 2019-10-01 12:29:50
 */
 main.controller('kindCtrl', ['$scope',"$http", function($scope,$http){
 	var times = new Date();
+	times = times.getTime();
 	$http({
 		url:"./DB/kind.list?t="+times,
 		method:"GET",
