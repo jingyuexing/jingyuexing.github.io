@@ -1,7 +1,7 @@
 let scene, camera, render;
 var loader = new THREE.FontLoader();
 //导入字体，设定字体，这里的话，你们找对自己的字体路径，可能和我的不一样的！！下载的three.js包里面examples/fonts里面有字体
-loader.load("font/FZZhiAnTiS_Regular.json", function (font) {
+loader.load("3DContent/font/FZZhiAnTiS_Regular.json", function (font) {
   init(font);
   animate();
 });
