@@ -1,0 +1,118 @@
+/*
+* @Author: Admin
+* @Date:   2019-09-29 19:36:39
+* @Last Modified by:   Admin
+* @Last Modified time: 2019-10-10 16:52:33
+*/
+*{
+    margin:0;
+    padding: 0;
+}
+.main{
+    position: fixed;
+    width: 100%;
+    height:100%;
+}
+.head{
+    width:100%;
+    height:40px;
+    display:flex;
+    color:#fff;
+    text-align:center;
+    background-color:rgba(33, 33, 33, 0.58);
+}
+.head .left,.head .center,.head .right{
+    width:33.3333333%;
+    height:100%;
+}
+.content{
+    width:100%;
+}
+.content>canvas{
+    /* background: #000; */
+}
+.btn{
+    border-radius:6px;
+    margin:4px auto;
+    width:50%;
+    height:25px;
+    line-height:25px;
+    cursor: pointer;
+    transition:all .4s ease-in-out;
+}
+.btn:hover{
+    color:#2eb7ed;
+}
+.guoqing{
+    color:#f9d4a3;
+    background-color:#a3111f;
+}
+.next,.back{
+    font-family: "FiraCode";
+}
+.next{
+
+}
+.back{
+
+}
+.center::after{
+    content:"<>";
+    width:16px;
+    height:16px;
+    font-family:"FiraCode";
+    transform:rotate(90deg);
+    -o-transform:rotate(90deg); 
+    -ms-transform:rotate(90deg);     /* IE 9 */
+    -moz-transform:rotate(90deg);    /* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+}
+.card{
+    display:flex;
+    padding:3px;
+    border-radius:5px;
+    color:#fff;
+    /* writing-mode: vertical-rl; */
+}
+.date-card{
+    width:40%;
+    user-select:none;
+    border-radius:6px;
+    display:inline-block;
+    box-shadow:1px 1px 20px rgba(183, 183, 183, 0.5);
+}
+.date-card>.title,.date-card>.content{
+    text-align:center;
+}
+.date-card>.title{
+    color:#fff;
+    padding:6px 10%;
+    font-size: xx-large;
+    border-radius:6px 6px 0px 0px;
+    background-color:#a3111f;
+}
+.date-card>.content{
+    color:#000;
+    font-size:4em;
+    border-radius:0px 0px 6px 6px;
+    background-color:#f9d4a3;
+}
+.card>.title{
+    font-family:"title";
+}
+
+.title{
+    font-family:'title';
+}
+@font-face {
+    font-family:"title";
+    src:url("../font/FZYZ.ttf");
+}
+@font-face {
+    font-family:"title";
+    src:url("../font/FZYZ.woff2");
+}
+@font-face {
+    font-family:"FiraCode";
+    src:url("../font/FiraCode-Medium.woff2");
+}
