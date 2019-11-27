@@ -13,6 +13,7 @@
     { "link": "https://www.wolframalpha.com/", "name": "WolframAlpha", "tag": ["搜索引擎"] },
     { "link": "https://cn.bing.com/?FORM=BEHPTB&ensearch=1", "name": "必应", "tag": ["搜索引擎"] },
     {"link":"https://www.zqbook.top/","name":"智奇搜书","tag":["搜索引擎","图书"]},
+    {"link":"https://www.jiumodiary.com/","name":"鸠摩搜索","tag":["搜索引擎","图书"]},
     {"link":"http://www.yunpz.net/","name":"云铺子","tag":["搜索引擎","资料"]},
     {"link":"https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5","name":"维基","tag":["百科"]},
     { "link": "https://twitter.com/", "name": "推特", "tag": ["社交"] },
