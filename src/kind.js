@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-31 23:58:56
 * @Last Modified by:   Admin
-* @Last Modified time: 2019-11-30 23:49:34
+* @Last Modified time: 2019-12-01 00:09:18
 */
 main.controller('kindCtrl', ['$scope',"$http", function($scope,$http){
     var times = new Date();
@@ -26,6 +26,11 @@ main.controller('kindCtrl', ['$scope',"$http", function($scope,$http){
                 cache.push(temp[i]);
             }
         }
-        console.log(cache);
+        $scope.$watch("tag", function(newVal, oldVal) {
+            if(newVal!=oldVal){
+                $scope.status ="changed";
+                $scope.link = cache;
+            }
+        }, true);
     }
 }]);
