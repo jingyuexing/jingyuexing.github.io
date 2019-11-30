@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-31 23:58:56
 * @Last Modified by:   Admin
-* @Last Modified time: 2019-12-01 00:22:05
+* @Last Modified time: 2019-12-01 00:24:56
 */
 main.controller('kindCtrl', ['$scope',"$http", function($scope,$http){
     var times = new Date();
@@ -18,7 +18,7 @@ main.controller('kindCtrl', ['$scope',"$http", function($scope,$http){
         console.log("失败!");
     });
     $scope.enbale=function(){
-		let $scope.cacheTag = this.tag;
+		$scope.cacheTag = this.tag;
         let temp = $scope.link;
         let cache = [];
 		for(let i=0;i<temp.length;i++){
