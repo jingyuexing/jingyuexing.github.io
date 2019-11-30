@@ -1,5 +1,5 @@
 
-<div class="capsule" ng-repeat="data in link">
+<div class="capsule" ng-repeat="data in link" ng-click="reset()">
 	<div class="icon material-icons" style="line-height:60px;">timeline</div>
 	<div class="title"><a target="_blank" href="{{data.link}}">{{data.name}}</a></div>
 	<div class="tag" ng-repeat="tag in data.tag" ng-click="enbale()">{{tag}}</div>
