@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-31 23:58:56
 * @Last Modified by:   Admin
-* @Last Modified time: 2019-11-30 23:32:35
+* @Last Modified time: 2019-11-30 23:49:34
 */
 main.controller('kindCtrl', ['$scope',"$http", function($scope,$http){
     var times = new Date();
@@ -19,6 +19,13 @@ main.controller('kindCtrl', ['$scope',"$http", function($scope,$http){
     });
     $scope.enbale=function(){
 		let tag = this.tag;
-		console.log(tag);
+        let temp = $scope.link;
+        let cache = [];
+		for(let i=0;i<temp.length;i++){
+            if(temp[i].tag.includes(tag)){
+                cache.push(temp[i]);
+            }
+        }
+        console.log(cache);
     }
 }]);
