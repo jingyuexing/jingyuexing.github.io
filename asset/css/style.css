@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Admin
-* @Last Modified time: 2019-12-01 01:08:42
+* @Last Modified time: 2019-12-01 18:56:05
 */
 body{
     width:100%;
@@ -169,6 +169,9 @@ div.icon,i.icon{
     opacity:0.5;
     margin-left:-145px;
     transition:all .4s ease-in-out;
+}
+.backBtn{
+    border-radius:50%;
 }
 .navbar:hover{
     opacity:1;
