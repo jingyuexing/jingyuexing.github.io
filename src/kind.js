@@ -2,7 +2,7 @@
  * @Author: Jingyuexing
  * @Date:   2018-12-31 23:58:56
  * @Last Modified by:   Admin
- * @Last Modified time: 2019-12-01 19:07:04
+ * @Last Modified time: 2019-12-01 19:16:30
  */
 main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
     var times = new Date();
@@ -13,7 +13,7 @@ main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
         type: "json"
     }).then(function(res) {
         $scope.link = angular.fromJson(res.data);
-        $scope.backup = $scope.links;
+        $scope.backup = $scope.link;
     }, function(res) {
         console.log("失败!");
     });
