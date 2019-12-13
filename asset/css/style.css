@@ -2,12 +2,12 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Admin
-* @Last Modified time: 2019-12-13 16:21:56
+* @Last Modified time: 2019-12-13 16:24:08
 */
 body{
     width:100%;
     height:100%;
-    background:url("../img/winterBg.jpg") cover no-repeat !important;
+    
 }
 *{
     margin:0px;
@@ -29,6 +29,9 @@ body{
 }
 .head{
     background-color:#91e374 !important;
+}
+main.mdl-layout__content{
+    background:url("../img/winterBg.jpg") cover no-repeat !important;
 }
 .card{
     padding:4px;
