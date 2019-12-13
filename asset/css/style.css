@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Admin
-* @Last Modified time: 2019-12-13 16:24:08
+* @Last Modified time: 2019-12-13 16:39:01
 */
 body{
     width:100%;
@@ -31,7 +31,8 @@ body{
     background-color:#91e374 !important;
 }
 main.mdl-layout__content{
-    background:url("../img/winterBg.jpg") cover no-repeat !important;
+    background:url("../img/winterBg.jpg");
+    background-size:cover;
 }
 .card{
     padding:4px;
@@ -205,7 +206,7 @@ div.icon,i.icon{
     margin: 12px auto;
     border-radius:60px;
     padding: 4px 4px;
-    background-color: #d6d6d6;
+    background-color: rgba(214, 214, 214, 0.6);
     transition: all .4s ease-in-out;
 }
 .capsule:hover{
