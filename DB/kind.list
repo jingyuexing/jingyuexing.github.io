@@ -93,6 +93,7 @@
     {"link":"https://www.pexels.com/","name":"Pexels","tag":["设计","图片","免费"]},
     { "link": "https://www.ui.cn/", "name": "UI中国", "tag": ["设计"] },
     { "link":"http://www.addog.vip/","name":"ADdog","tag":["素材"]},
+    { "link":"http://www.marstranslator.com/","name":"火星译客","tag":["新闻"]},
     {"link":"https://open.163.com/","name":"网易公开课","tag":["MOOC","网络公开课"]},
     {"link":"https://www.edx.org/","name":"Edx","tag":["MOOC","网络公开课"]},
     {"link":"https://www.coursera.org/","name":"coursera","tag":["MOOC","网络公开课"]},
