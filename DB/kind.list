@@ -112,6 +112,7 @@
     {"link": "https://www.typescriptlang.org/", "name": "TypeScript", "tag": ["官网","编程语言","IT"] },
     {"link": "https://www.taobao.com/", "name": "淘宝网", "tag": ["官网","网购"] },
     {"link":"https://db.cngb.org/download/","name":"国家基因库","tag":["基因数据","数据"]},
+    {"link":"https://data.worldbank.org.cn/","name":"世界银行公开数据","tag":["数据"]},
     {"link":"https://devdocs.io/","name":"DevDOC","tag":["开发","文档","IT"]},
     {"link":"https://nodejs.org/","name":"NodeJS","tag":["官网","IT","JavaScript"]},
     {"link":"http://johnny-five.io/","name":"johnny-five","tag":["框架","库","IT","javaScript","硬件"]},
