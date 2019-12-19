@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Admin
-* @Last Modified time: 2019-12-19 22:25:17
+* @Last Modified time: 2019-12-19 22:31:32
 */
 body{
     width:100%;
@@ -82,10 +82,12 @@ div.icon,i.icon{
     margin-right:12px;
 }
 .page-content,.content{
-    background-color:rgba(255, 255, 255, 0.53);
     margin-top:60px;
     width:80%;
     margin:0 auto;
+}
+.page-content>.card{
+    background-color:rgba(255, 255, 255, 0.53);
 }
 .mdl-layout__drawer .mdl-navigation__link>.icon{
     font-size:1.8em;
