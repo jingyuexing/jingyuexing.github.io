@@ -2,9 +2,15 @@
  * @Author: Jingyuexing
  * @Date:   2018-12-31 23:58:56
  * @Last Modified by:   Admin
- * @Last Modified time: 2019-12-01 19:16:30
+ * @Last Modified time: 2019-12-24 00:06:17
  */
 main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
+    var status=require("https://unpkg.com/axios@0.19.0/dist/axios.min.js")
+    if(status){
+        console.log("✔ load success");
+    }else{
+        console.log("❌ load failed");
+    }
     var times = new Date();
     times = times.getTime();
     $http({
