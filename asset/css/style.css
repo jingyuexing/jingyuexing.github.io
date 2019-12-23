@@ -31,8 +31,8 @@ body{
     background-color:#91e374 !important;
 }
 main.mdl-layout__content{
-    background:url("../img/winterBg.jpg");
-    background-size:cover;
+    /* background:url("../img/winterBg.jpg"); */
+    background-size:cover !important;
 }
 .card{
     padding:4px;
