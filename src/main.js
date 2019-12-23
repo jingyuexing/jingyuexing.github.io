@@ -9,12 +9,21 @@
 *
 * Description
 */
+function randomInt(scopeNum){
+    function IntParser(floatNumber=0){
+        return ~~floatNumber;
+    }
+    return IntParser(Math.random()*scopeNum);
+}  
 var main=angular.module('main', ['ngRoute']);
 main.service('Comm', function(){
     var str = /(kind|test|login|msg|home|yul|sport|hot|edu)/;
     var name = {"edu":"教育","hot":"热点","home":"主页","yul":"娱乐","msg":"消息","login":"注册","kind":"分类","user":"用户"};
     this.TitleName=name[location.hash.match(str)[0]];
 });
+var Ele = document.getElementById("main");
+var bgList=["bg1.jpg","bg2.jpg","bg3.jpg","bg4.jpg","bg5.jpg"];
+Ele.setAttribute("style",`background: url(../img/${bgList[randomInt(bgList.length)]});`)
 main.config(['$routeProvider',function($routeProvider) {
     $routeProvider.when("/user",{
         templateUrl:"tpls/user.html",
