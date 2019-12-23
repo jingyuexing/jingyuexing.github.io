@@ -67,6 +67,7 @@
     {"link":"https://rxjs-dev.firebaseapp.com/","name":"RxJS","tag":["框架","库","JavaScript","开源","IT"]},
     {"link":"https://matplotlib.org","name":"Matplotlib","tag":["库","python","IT"]},
     {"link":"https://spring.io/","name":"Spring","tag":["库","Java","IT"]},
+    {"link":"https://pkgs.org/","name":"pgks","tag":["OS","Unix","Linux"]},
     {"link":"https://hadoop.apache.org/","name":"Haoop","tag":["数据库","分布式","IT"]},
     {"link":"https://tensorflow.google.cn/","name":"TensorFlow","tag":["库","python","框架"]},
     {"link":"https://www.numpy.org/","name":"Numpy","tag":["库","python","IT"]},
