@@ -65,7 +65,8 @@ function require(url = '') {
     }else if(isArray(url)){
         url.forEach((ele)=>{
             require(ele);
-        })
+        });
+        return true;
     }else{
         return false;
     }
