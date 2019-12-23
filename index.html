@@ -48,6 +48,11 @@
     </div>
   </main>
 </div>
+<script type="text/javascript">
+var Ele = document.getElementById("main");
+var bgList=["bg1.jpg","bg2.jpg","bg3.jpg","bg4.jpg","bg5.jpg"];
+Ele.setAttribute("style",`background: url(../img/${bgList[randomInt(bgList.length)]});`)
+</script>
 <script src="src/edu.js"></script>
 <script src="src/me.js"></script>
 <script src="src/testApp.js"></script>
