@@ -15,6 +15,7 @@
     { "link":"https://www.zqbook.top/","name":"智奇搜书","tag":["搜索引擎","图书"]},
     { "link":"https://www.jiumodiary.com/","name":"鸠摩搜索","tag":["搜索引擎","图书"]},
     { "link":"http://gen.lib.rus.ec/search.php","name":"Library Genesis","tag":["图书","免费"]},
+    { "link":"https://www.marxists.org/chinese/","name":"中文马克思主义文库","tag":["图书","免费"]},
     { "link":"http://www.yunpz.net/","name":"云铺子","tag":["搜索引擎","资料"]},
     { "link":"https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5","name":"维基","tag":["百科"]},
     { "link": "https://twitter.com/", "name": "推特", "tag": ["社交"] },
