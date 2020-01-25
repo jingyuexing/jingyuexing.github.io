@@ -2,7 +2,7 @@
  * @Author: Jingyuexing
  * @Date:   2018-12-31 23:58:56
  * @Last Modified by:   Jingyuexing
- * @Last Modified time: 2020-01-25 14:23:00
+ * @Last Modified time: 2020-01-25 15:24:02
  */
 main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
     var status = require("https://unpkg.com/axios@0.19.0/dist/axios.min.js")
@@ -34,61 +34,67 @@ main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
         }
         $scope.link = cache;
     }
-    var chinesetime = "子丑寅卯辰巳午未申酉戌亥".split("");
-    var date = new Date();
-    var h = date.getHours();
-    switch (h) {
-        case 1:
-        case 2:
-            $scope.timeText = chinesetime[0];
-            break;
-        case 3:
-        case 4:
-            $scope.timeText = chinesetime[1];
-            break;
-        case 5:
-        case 6:
-            $scope.timeText = chinesetime[2];
-            break;
-        case 7:
-        case 8:
-            $scope.timeText = chinesetime[3];
-            break;
-        case 9:
-        case 10:
-            $scope.timeText = chinesetime[4];
-            break;
-        case 11:
-        case 12:
-            $scope.timeText = chinesetime[5];
-            break;
-        case 13:
-        case 14:
-            $scope.timeText = chinesetime[6];
-            break;
-        case 15:
-        case 16:
-            $scope.timeText = chinesetime[7];
-            break;
-        case 17:
-        case 18:
-            $scope.timeText = chinesetime[8];
-            break;
-        case 19:
-        case 20:
-            $scope.timeText = chinesetime[9];
-            break;
-        case 21:
-        case 22:
-            $scope.timeText = chinesetime[10];
-            break;
-        case 23:
-        case 24:
-            $scope.timeText = chinesetime[11];
+    $scope.chineseTime = function() {
+        var Ct = "子丑寅卯辰巳午未申酉戌亥".split("");
+        var date = new Date();
+        var h = date.getHours();
+        var timeText = "";
+        switch (h) {
+            case 1:
+            case 2:
+                timeText = Ct[0];
+                break;
+            case 3:
+            case 4:
+                timeText = Ct[1];
+                break;
+            case 5:
+            case 6:
+                timeText = Ct[2];
+                break;
+            case 7:
+            case 8:
+                timeText = Ct[3];
+                break;
+            case 9:
+            case 10:
+                timeText = Ct[4];
+                break;
+            case 11:
+            case 12:
+                timeText = Ct[5];
+                break;
+            case 13:
+            case 14:
+                timeText = Ct[6];
+                break;
+            case 15:
+            case 16:
+                timeText = Ct[7];
+                break;
+            case 17:
+            case 18:
+                timeText = Ct[8];
+                break;
+            case 19:
+            case 20:
+                timeText = Ct[9];
+                break;
+            case 21:
+            case 22:
+                timeText = Ct[10];
+                break;
+            case 23:
+            case 24:
+                timeText = Ct[11];
+        }
+        return timeText;
     }
-    $scope.$watch("cacheTag+timeText", function(newVal, oldVal) {
+    console.log("[ChineseTime]:", $scope.timeText);
+    $scope.$watch("cacheTag+chineseTime()", function(newVal, oldVal) {
         if (newVal != oldVal) {
             $scope.status = "changed";
+            $scope.timeText = $scope.chineseTime();
         }
     });
 }]);
