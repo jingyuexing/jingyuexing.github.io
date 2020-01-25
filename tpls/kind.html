@@ -1,6 +1,20 @@
-
-<div class="capsule" ng-repeat="data in link" ng-click="reset()">
-	<div class="icon material-icons" style="line-height:60px;">timeline</div>
-	<div class="title"><a target="_blank" href="{{data.link}}">{{data.name}}</a></div>
-	<div class="tag" ng-repeat="tag in data.tag" ng-click="enbale()">{{tag}}</div>
+<div>
+    <div class="capsule" ng-click="reset()" ng-repeat="data in link">
+        <div class="icon material-icons" style="line-height:60px;">
+            timeline
+        </div>
+        <div class="title">
+            <a href="{{data.link}}" target="_blank">
+                {{data.name}}
+            </a>
+        </div>
+        <div class="tag" ng-click="enbale()" ng-repeat="tag in data.tag">
+            {{tag}}
+        </div>
+    </div>
+    <div class="chinese">
+      <div class="showTimes chineseNewYear font-lishu">
+        {{timeText}}
+      </div>
+    </div>
 </div>
