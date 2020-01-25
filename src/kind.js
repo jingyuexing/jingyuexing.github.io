@@ -2,7 +2,7 @@
  * @Author: Jingyuexing
  * @Date:   2018-12-31 23:58:56
  * @Last Modified by:   Jingyuexing
- * @Last Modified time: 2020-01-25 14:23:00
+ * @Last Modified time: 2020-01-25 14:52:21
  */
 main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
     var status = require("https://unpkg.com/axios@0.19.0/dist/axios.min.js")
@@ -86,6 +86,7 @@ main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
         case 24:
             $scope.timeText = chinesetime[11];
     }
+    console.log("ChineseTime:",$scope.timeText);
     $scope.$watch("cacheTag+timeText", function(newVal, oldVal) {
         if (newVal != oldVal) {
             $scope.status = "changed";
