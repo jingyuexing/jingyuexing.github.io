@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Jingyuexing
-* @Last Modified time: 2020-01-25 14:26:14
+* @Last Modified time: 2020-01-25 14:57:45
 */
 body{
     width:100%;
@@ -254,6 +254,11 @@ div.icon,i.icon{
     vertical-align: top;
     border-radius: 100px;
     background: rgba(0,132,255,.1);
+}
+.chinese{
+    position: fixed;
+    top: 50%;
+    right: 31px;
 }
 .chineseNewYear{
     color:#ffedda !important;
