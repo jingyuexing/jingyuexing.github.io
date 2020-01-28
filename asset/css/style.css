@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Jingyuexing
-* @Last Modified time: 2020-01-28 14:21:20
+* @Last Modified time: 2020-01-28 15:41:10
 */
 body{
     width:100%;
@@ -335,7 +335,7 @@ div.icon,i.icon{
     }
     .kind .tag{
         height:4vw;
-        font-size: 1vw;
+        font-size: 6vw;
         line-height: 4vw
     }
 }
