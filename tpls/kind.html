@@ -1,20 +1,19 @@
-<div>
-    <div class="capsule" ng-click="reset()" ng-repeat="data in link">
+<div class="kind">
+    <div class="capsule" ng-repeat="data in links">
         <div class="icon material-icons" style="line-height:60px;">
             timeline
         </div>
-        <div class="title">
-            <a href="{{data.link}}" target="_blank">
-                {{data.name}}
-            </a>
+        <div class="box">
+            <div class="title">
+                <a href="{{data.link}}" target="_blank">
+                    {{data.name}}
+                </a>
+            </div>
+            <div class="tags">
+                <div class="tag" ng-click="enbale()" ng-repeat="tag in data.tag">
+                    {{tag}}
+                </div>
+            </div>
         </div>
-        <div class="tag" ng-click="enbale()" ng-repeat="tag in data.tag">
-            {{tag}}
-        </div>
-    </div>
-    <div class="chinese">
-      <div class="showTimes chineseNewYear font-lishu">
-        {{timeText}}
-      </div>
     </div>
 </div>
