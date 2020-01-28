@@ -2,7 +2,7 @@
  * @Author: Jingyuexing
  * @Date:   2018-12-31 23:58:56
  * @Last Modified by:   Jingyuexing
- * @Last Modified time: 2020-01-28 15:56:47
+ * @Last Modified time: 2020-01-28 16:03:03
  */
 main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
     var status = require("https://unpkg.com/axios@0.19.0/dist/axios.min.js")
@@ -13,7 +13,7 @@ main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
     }
     var time = new Date().getTime();
     $http({
-        url: "DB/kind.json?="+time,
+        url: "DB/kind.list?="+time,
         method: "GET",
     }).then(function (res) {
         $scope.backup=$scope.links = angular.fromJson(res.data);
