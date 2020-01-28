@@ -2,7 +2,7 @@
  * @Author: Jingyuexing
  * @Date:   2018-12-31 23:58:56
  * @Last Modified by:   Jingyuexing
- * @Last Modified time: 2020-01-28 15:53:14
+ * @Last Modified time: 2020-01-28 15:56:47
  */
 main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
     var status = require("https://unpkg.com/axios@0.19.0/dist/axios.min.js")
@@ -11,8 +11,7 @@ main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
     } else {
         console.log("❌ load failed");
     }
-    var times = new Date();
-    times = times.getTime();
+    var time = new Date().getTime();
     $http({
         url: "DB/kind.json?="+time,
         method: "GET",
