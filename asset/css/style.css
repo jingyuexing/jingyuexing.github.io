@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Jingyuexing
-* @Last Modified time: 2020-01-25 14:57:45
+* @Last Modified time: 2020-01-28 14:21:20
 */
 body{
     width:100%;
@@ -278,6 +278,11 @@ div.icon,i.icon{
 .capsule .tag:empty{
     display: none;
 }
+.kind .box{
+    width: 80%;
+    height:100%;
+    display: flex;
+}
 .flex{
     /* display: flex; */
     float: left;
@@ -300,9 +305,37 @@ div.icon,i.icon{
         font-size: 1.2em;
     }
     .capsule .tag{
-        display: none;
+        width:30px;
+        height:10px;
     }
     .page-content, .content{
         width:100%;
+    }
+    .kind a{
+        width:100%;
+        height:100%;
+        display:inline;
+    }
+    .kind .box{
+        display:block;
+    }
+    .kind .box>.tags>.tag{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .kind .title{
+        width:100%;
+        height:50%;
+        line-height: 30px;
+    }
+    .kind .tags{
+        display: flex;
+        width:100%;
+        height: 50%;
+    }
+    .kind .tag{
+        height:4vw;
+        font-size: 1vw;
+        line-height: 4vw
     }
 }
