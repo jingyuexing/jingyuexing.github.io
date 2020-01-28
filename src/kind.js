@@ -2,7 +2,7 @@
  * @Author: Jingyuexing
  * @Date:   2018-12-31 23:58:56
  * @Last Modified by:   Jingyuexing
- * @Last Modified time: 2020-01-28 15:07:26
+ * @Last Modified time: 2020-01-28 15:25:17
  */
 main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
     var status = require("https://unpkg.com/axios@0.19.0/dist/axios.min.js")
@@ -14,16 +14,15 @@ main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
     var times = new Date();
     times = times.getTime();
     $http({
-        url: "./DB/kind.list?t=" + times,
+        url: "DB/kind.json?="+time,
         method: "GET",
-        type: "json"
-    }).then(function(res) {
+    }).then(function (res) {
         $scope.links = angular.fromJson(res.data);
-        $scope.backup = $scope.link;
-    }, function(res) {
+        $scope.backup = $scope.links;
+    }, function (res) {
         console.log("失败!");
     });
-    $scope.enbale = function() {
+    $scope.enbale = function () {
         $scope.cacheTag = this.tag;
         let temp = $scope.backup;
         let cache = [];
@@ -32,7 +31,8 @@ main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
                 cache.push(temp[i]);
             }
         }
-        $scope.link = cache;
+        console.log($scope.cacheTag);
+        $scope.links = cache;
     }
     $scope.chineseTime = function() {
         var Ct = "子丑寅卯辰巳午未申酉戌亥".split("");
