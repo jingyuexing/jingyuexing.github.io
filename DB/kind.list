@@ -8,6 +8,7 @@
     { "link": "https://www.wolframalpha.com/", "name": "WolframAlpha", "tag": ["搜索引擎"] },
     { "link":"http://www.cn-ki.net/","name":"IDATA","tag":["搜索引擎","论文"]},
     { "link":"http://videos.yizhansou.com","name":"一站搜","tag":["搜索引擎","视频"]},
+    { "link":"http://magi.com","name":"Magi","tag":["搜索引擎"]},
     { "link":"http://www.hejizhan.com/html/search/","name":"万千集合站","tag":["搜索引擎","资料"]},
     { "link":"https://www.asklib.com/","name":"问答库","tag":["搜索引擎","资料"]},
     { "link": "https://www.wolframalpha.com/", "name": "WolframAlpha", "tag": ["搜索引擎"] },
