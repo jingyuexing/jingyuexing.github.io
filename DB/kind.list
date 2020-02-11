@@ -8,6 +8,7 @@
     { "link": "https://www.wolframalpha.com/", "name": "WolframAlpha", "tag": ["搜索引擎"] },
     { "link":"http://www.cn-ki.net/","name":"IDATA","tag":["搜索引擎","论文"]},
     { "link":"http://videos.yizhansou.com","name":"一站搜","tag":["搜索引擎","视频"]},
+    { "link":"http://magi.com","name":"Magi","tag":["搜索引擎"]},
     { "link":"http://www.hejizhan.com/html/search/","name":"万千集合站","tag":["搜索引擎","资料"]},
     { "link":"https://www.asklib.com/","name":"问答库","tag":["搜索引擎","资料"]},
     { "link": "https://www.wolframalpha.com/", "name": "WolframAlpha", "tag": ["搜索引擎"] },
@@ -19,6 +20,7 @@
     { "link":"http://www.yunpz.net/","name":"云铺子","tag":["搜索引擎","资料"]},
     { "link":"https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5","name":"维基","tag":["百科"]},
     { "link": "https://twitter.com/", "name": "推特", "tag": ["社交"] },
+    { "link":"http://virological.org/","name":"virological","tag":["科研","数据","基因","生物科学"]},
     { "link":"https://www.researchgate.net/","name":"researchgate","tag":["论文","科研"]},
     { "link": "https://www.zhihu.com", "name": "知乎", "tag": ["问答社区"] },
     { "link": "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5", "name": "How Wiki", "tag": ["社区"] },
@@ -147,5 +149,5 @@
     {"link":"http://www.ox.ac.uk","name":"牛津大学","tag":["官网"]},
     {"link":"https://www.harvard.edu/","name":"哈弗大学","tag":["官网"]},
     {"link":"https://www.stanford.edu","name":"斯坦福大学","tag":["官网"]},
-    {"link":"http://www.mit.edu/","name":"麻省理工学院","tag":["官网"]}
+    {"link":"http://www.mit.edu/","name":"麻省理工学院","tag":["官网"]},
 ]
