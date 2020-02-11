@@ -149,5 +149,5 @@
     {"link":"http://www.ox.ac.uk","name":"牛津大学","tag":["官网"]},
     {"link":"https://www.harvard.edu/","name":"哈弗大学","tag":["官网"]},
     {"link":"https://www.stanford.edu","name":"斯坦福大学","tag":["官网"]},
-    {"link":"http://www.mit.edu/","name":"麻省理工学院","tag":["官网"]},
+    {"link":"http://www.mit.edu/","name":"麻省理工学院","tag":["官网"]}
 ]
