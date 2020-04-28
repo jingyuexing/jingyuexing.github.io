@@ -6,6 +6,7 @@
     { "link":"https://www.baidu.com", "name": "百度", "tag": ["搜索引擎"] },
     { "link":"https://www.bing.com/?mkt=zh-cn", "name": "必应", "tag": ["搜索引擎"] },
     { "link":"https://magi.com","name":"Magi","tag":["搜索引擎"]},
+    { "link":"http://www.cnnvd.org.cn/web/index.html","name":"国家信息安全漏洞库","tag":["漏洞发布","官方"]},
     { "link":"https://www.wolframalpha.com/", "name": "WolframAlpha", "tag": ["搜索引擎"] },
     { "link":"http://www.cn-ki.net/","name":"IDATA","tag":["搜索引擎","论文"]},
     { "link":"http://videos.yizhansou.com","name":"一站搜","tag":["搜索引擎","视频"]},
