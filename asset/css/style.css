@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Jingyuexing
-* @Last Modified time: 2020-01-28 16:10:55
+* @Last Modified time: 2020-05-18 18:21:43
 */
 body{
     width:100%;
@@ -209,7 +209,7 @@ div.icon,i.icon{
     margin: 12px auto;
     border-radius:60px;
     padding: 4px 4px;
-    background-color: rgba(214, 214, 214, 0.6);
+    background-color: rgba(239, 239, 239, 0.86);
     transition: all .4s ease-in-out;
 }
 .capsule:hover{
