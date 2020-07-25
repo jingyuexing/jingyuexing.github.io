@@ -1,8 +1,8 @@
 /*
 * @Author: Jingyuexing
 * @Date:   2018-12-31 21:46:27
-* @Last Modified by:   jingyuexing
-* @Last Modified time: 2019-11-10 22:25:03
+* @Last Modified by:   Jingyuexing
+* @Last Modified time: 2020-06-20 21:24:48
 */
 /**
 * router Module
@@ -37,6 +37,9 @@ main.config(['$routeProvider',function($routeProvider) {
     }).when("/aboutme",{
         templateUrl:"tpls/aboutme.html",
         controller:"meCtrl"
+    }).when('/source', {
+        templateUrl: 'source.html',
+        controller: 'SourceCtrl'
     }).otherwise("/kind");
 }]);
 (function(){
