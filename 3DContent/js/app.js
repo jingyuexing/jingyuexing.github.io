@@ -1,8 +1,8 @@
 /*
 * @Author: Admin
 * @Date:   2019-09-29 19:36:22
-* @Last Modified by:   Admin
-* @Last Modified time: 2019-10-02 11:04:48
+* @Last Modified by:   jingyuexing
+* @Last Modified time: 2020-08-07 01:15:04
 */
 console.log("开始了");
 
@@ -22,10 +22,10 @@ function Jmap(object) {
   let item = [];
   Object.keys(object).map(i => {
     let val = Jmap(object[i]);
-    if (typeof val == "object") val.map(j => {
+    if (typeof val == "object") val.map(ele => {
       item.push({
-        key: i + "." + j.key,
-        value: j.value
+        key: i + "." + ele.key,
+        value: ele.value
       });
     });
     else item.push({

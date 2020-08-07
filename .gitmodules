@@ -1,0 +1,3 @@
+[submodule "DB/Ebook"]
+	path = DB/Ebook
+	url = git@github.com:jingyuexing/Ebook.git
