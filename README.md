@@ -18,7 +18,7 @@
 ## 我如何看到效果？
 
 此项目是一个[githubPages](https://pages.github.com/)    
-[giteePages]( https://jingyuexing.gitee.io/jingyuexing.io)
+[giteePages](https://jingyuexing.gitee.io/jingyuexing.gitee.io/#!/kind)
 
 如果你是需要做一个自己的网页,你可以将`jingyuexing.github.io`项目名当中的`jingyuexing`改成你自己的名字，也就是你的github账户名称
 
