@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-31 21:46:27
 * @Last Modified by:   Jingyuexing
-* @Last Modified time: 2020-06-20 21:24:48
+* @Last Modified time: 2020-08-19 20:10:02
 */
 /**
 * router Module
@@ -40,7 +40,11 @@ main.config(['$routeProvider',function($routeProvider) {
     }).when('/source', {
         templateUrl: 'source.html',
         controller: 'SourceCtrl'
-    }).otherwise("/kind");
+    }).when('/data', {
+        templateUrl: 'tpls/data.html',
+        controller: 'DataCtrl'
+    })
+    .otherwise("/kind");
 }]);
 (function(){
     var str = /(kind|test|login|msg|home|yul|sport|hot|edu|user|wether|aboutme)/;
@@ -84,4 +88,35 @@ switch (location.hash.match(str)[0]) {
         break;
 }
 })();
+
+var clock = function(){
+    var str = ""
+    var h = new Date().getHours();
+    if(0<=h&&h<5){
+        //凌晨
+        str = "凌晨";
+    }else if(5<=h&&h<9){
+        //早上
+        str = "早上";
+    }else if(9<=h&&h<12){
+        //上午
+        str = "上午";
+    }else if(12<=h&&h<13){
+        //中午
+        str = "中午";
+    }else if(13<=h&&h<15){
+        //下午
+        str = "下午";
+    }else if(15<=h&&h<20){
+        //旁晚
+        str = "旁晚";
+    }else if(20<=h&&h<22){
+        //晚上
+        str = "晚上";
+    }else if(22<=h&&h<=0){
+        //午夜
+        str = "午夜";
+    }
+    return str;
+}
 console.log("%c特么又来看源码!","background-color:#2eb7ed;padding:4px 6px;color:#fff;border-radius:4px 4px 4px 4px;font-size:2em;")
