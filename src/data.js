@@ -2,7 +2,7 @@
  * @Author: Jingyuexing
  * @Date:   2020-08-19 06:43:30
  * @Last Modified by:   Jingyuexing
- * @Last Modified time: 2020-08-19 19:52:31
+ * @Last Modified time: 2020-08-19 21:01:47
  */
 main.controller('DataCtrl', ['$scope', "$http", function($scope, $http) {
     var select = document.getElementById("select");
@@ -117,7 +117,7 @@ main.controller('DataCtrl', ['$scope', "$http", function($scope, $http) {
             }
             options.options.title.text = $scope.dataset.title;
             dataset.labels = $scope.dataset.labels;
-            //////////////// 饼状图
+            /////////////// 饼状图
             config.data.datasets[0].data = [];
             config.options.title.text = $scope.dataset.title+"(男/女)";
             config.data.labels = ["男","女"];
