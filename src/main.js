@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-31 21:46:27
 * @Last Modified by:   Jingyuexing
-* @Last Modified time: 2020-08-19 06:18:25
+* @Last Modified time: 2020-08-19 20:10:02
 */
 /**
 * router Module
@@ -40,7 +40,11 @@ main.config(['$routeProvider',function($routeProvider) {
     }).when('/source', {
         templateUrl: 'source.html',
         controller: 'SourceCtrl'
-    }).otherwise("/kind");
+    }).when('/data', {
+        templateUrl: 'tpls/data.html',
+        controller: 'DataCtrl'
+    })
+    .otherwise("/kind");
 }]);
 (function(){
     var str = /(kind|test|login|msg|home|yul|sport|hot|edu|user|wether|aboutme)/;
