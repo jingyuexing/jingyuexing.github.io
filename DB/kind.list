@@ -158,7 +158,7 @@
     { "link":"https://devdocs.io/","name":"DevDOC","tag":["开发","文档","IT"]},
     { "link":"https://nodejs.org/","name":"NodeJS","tag":["官网","IT","JavaScript"]},
     { "link":"https://www.json.org","name":"JSON","tag":["官网","IT","JSON"]},
-    { "link":"https://yaml.org/","name":"JSON","tag":["官网","IT","YAML"]},
+    { "link":"https://yaml.org/","name":"YAML","tag":["官网","IT","YAML"]},
     { "link":"http://johnny-five.io/","name":"johnny-five","tag":["框架","库","IT","JavaScript","硬件"]},
     { "link":"https://store.steampowered.com/", "name": "Steam", "tag": ["网购", "游戏"] },
     { "link":"http://www.dgtle.com/", "name": "数字尾巴", "tag": ["评测", "数码"] },
