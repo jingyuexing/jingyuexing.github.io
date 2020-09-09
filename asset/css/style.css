@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Admin
-* @Last Modified time: 2020-09-09 13:48:59
+* @Last Modified time: 2020-09-09 13:53:49
 */
 body{
     width:100%;
@@ -260,7 +260,7 @@ div.icon,i.icon{
     display: none;
 }
 
-.course>.timelist{
+.Course>.timelist{
     margin:0 auto;
     display: flex;
     height: 40px;
@@ -270,13 +270,13 @@ div.icon,i.icon{
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 1px 1px 10px #323232;
 }
-.course>.timelist .timeitem,.timelist .timeclock{
+.Course>.timelist .timeitem,.Course>.timelist .timeclock{
     width: 50%;
     text-align: center;
     line-height: 40px;
     font-size: 1.5rem;
 }
-.course>.timeline>.now{
+.Course>.timeline>.now{
     display: block;
     background-color: #fff;
     text-align: center;
