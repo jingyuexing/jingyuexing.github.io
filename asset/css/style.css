@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Admin
-* @Last Modified time: 2020-09-10 01:03:59
+* @Last Modified time: 2020-09-10 02:10:22
 */
 body{
     width:100%;
@@ -397,5 +397,8 @@ div.icon,i.icon{
         height:4vw;
         font-size:0.5rem;
         line-height: 4vw
+    }
+    .Course .mdl-card{
+        width: 100%;
     }
 }
