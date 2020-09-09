@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Admin
-* @Last Modified time: 2020-09-10 00:51:51
+* @Last Modified time: 2020-09-10 00:56:21
 */
 body{
     width:100%;
@@ -268,6 +268,10 @@ div.icon,i.icon{
 }
 .Course .header-text{
     font-size: 1.6rem;
+}
+.timeline .mdl-card{
+    width: 51%;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 .chinese{
     position: fixed;
