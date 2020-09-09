@@ -1,8 +1,8 @@
 /*
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
-* @Last Modified by:   Jingyuexing
-* @Last Modified time: 2020-08-25 10:02:39
+* @Last Modified by:   Admin
+* @Last Modified time: 2020-09-09 13:30:24
 */
 body{
     width:100%;
@@ -254,6 +254,47 @@ div.icon,i.icon{
     vertical-align: top;
     border-radius: 100px;
     background: rgba(0,132,255,.1);
+}
+
+.empty{
+    display: none;
+}
+
+.Course .timelist{
+    margin:0 auto;
+    display: flex;
+    height: 40px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px 1px 10px #323232;
+}
+
+.Course .timeline .course-card{
+    border-radius: 5px;
+    width: 50%;
+    margin: 8px auto;
+    padding: 3px 0px;
+    background-color: #fefefe;
+    border-left: 7px solid #18c2db;
+}
+.Course .CourseList{
+    width: 30%;
+    margin: 32px auto;
+    border-radius: 10px;
+    border:1px solid #ececec;
+}
+
+.Course>.now{
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
 }
 .chinese{
     position: fixed;

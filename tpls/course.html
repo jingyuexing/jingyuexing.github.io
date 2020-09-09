@@ -1,0 +1,34 @@
+<div class="Course">
+    <div class="timelist" ng-repeat="value in dataset.timeLine">
+        <div class="timeitem">
+            {{value.item}}
+        </div>
+        <div class="timeclock">
+            {{value.time[0]}}---{{value.time[1]}}
+        </div>
+    </div>
+    <div class="now">
+        <div>
+            <div class="course1">
+                当前是<a href="#!/course">{{dataset.now}}</a> 
+            </div>
+            <div class="course2">
+                并且是<span id="course">{{dataset.course}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="course-card">
+        <span>今天的课程</span>
+        <div class="CourseList" ng-repeat="data in dataset.todayCourse">
+            <div class="course-box" ng-if="data!=null">
+                <div class="number">第<span>{{data.numebr}}</span>大节</div>
+                <div class="courseName">{{data.courseName}}</div>  <!-- 课程 -->
+                <div class="teacher">{{data.teacher}}</div> <!-- 老师 -->
+                <div class="classroom">{{data.classRoom}}教室</div>  <!-- 教室 -->
+            </div>
+            <div class="course-box" ng-if='data==null'>
+                无课
+            </div>
+        </div>
+    </div>
+</div>
