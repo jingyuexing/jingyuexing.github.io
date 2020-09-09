@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Admin
-* @Last Modified time: 2020-09-09 14:27:48
+* @Last Modified time: 2020-09-10 00:51:51
 */
 body{
     width:100%;
@@ -259,93 +259,16 @@ div.icon,i.icon{
 .empty{
     display: none;
 }
-
-.Course>.timelist{
-    margin:0 auto;
-    display: flex;
-    height: 40px;
-    margin-top: 26px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 1px 1px 10px #323232;
+.Course .mdl-card__title{
+    color: #4876f2;
 }
-.timelist .timeitem,.timelist .timeclock{
-    width: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 1.5rem;
+.Course .mdl-list__item-avatar{
+    color:#fff;
+    background-color:#0084ff;
 }
-.Course>.timeline>.now{
-    display: flex;
-    background-color: #fff;
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 20px;
+.Course .header-text{
+    font-size: 1.6rem;
 }
-
-.Course .timelist{
-    margin:0 auto;
-    display: flex;
-    height: 40px;
-    margin-top: 26px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 1px 1px 10px #323232;
-}
-
-.Course .timeline .course-card{
-    border-radius: 5px;
-    width: 50%;
-    margin: 8px auto;
-    padding: 3px 0px;
-    background-color: #fefefe;
-    border-left: 7px solid #18c2db;
-}
-.Course .CourseList{
-    width: 30%;
-    margin: 32px auto;
-    border-radius: 10px;
-    border:1px solid #ececec;
-}
-
-.Course .now>div {
-    display: flex;
-    margin: 0 auto;
-}
-.Course>.timeline .now .course2 span{
-    background-color: #1a6fb0;
-    color: #fff;
-    border-radius: 4px;
-    padding: 3px;
-}
-
-.Course>.now{
-    display: block;
-    background-color: #fff;
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 20px;
-}
-.Course .CourseList>.course-box {
-    padding: 2px 4px;
-}
-.Course .course-card{
-    border-radius: 5px;
-    width: 50%;
-    margin: 8px auto;
-    padding: 3px 0px;
-    background-color: #fefefe;
-    border-left: 7px solid #18c2db;
-}
-
 .chinese{
     position: fixed;
     top: 50%;
