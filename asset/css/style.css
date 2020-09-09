@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Admin
-* @Last Modified time: 2020-09-09 14:22:53
+* @Last Modified time: 2020-09-09 14:27:48
 */
 body{
     width:100%;
@@ -315,7 +315,6 @@ div.icon,i.icon{
 
 .Course .now>div {
     display: flex;
-    width: 58%;
     margin: 0 auto;
 }
 .Course>.timeline .now .course2 span{
