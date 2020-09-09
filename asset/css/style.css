@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Admin
-* @Last Modified time: 2020-09-09 13:53:49
+* @Last Modified time: 2020-09-09 13:57:21
 */
 body{
     width:100%;
@@ -323,6 +323,15 @@ div.icon,i.icon{
     line-height: 40px;
     border-radius: 20px;
 }
+.Course .course-card{
+    border-radius: 5px;
+    width: 50%;
+    margin: 8px auto;
+    padding: 3px 0px;
+    background-color: #fefefe;
+    border-left: 7px solid #18c2db;
+}
+
 .chinese{
     position: fixed;
     top: 50%;
