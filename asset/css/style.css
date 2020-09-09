@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Admin
-* @Last Modified time: 2020-09-09 13:57:21
+* @Last Modified time: 2020-09-09 14:01:00
 */
 body{
     width:100%;
@@ -270,7 +270,7 @@ div.icon,i.icon{
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 1px 1px 10px #323232;
 }
-.Course>.timelist .timeitem,.Course>.timelist .timeclock{
+.timelist .timeitem,.timelist .timeclock{
     width: 50%;
     text-align: center;
     line-height: 40px;
@@ -322,6 +322,9 @@ div.icon,i.icon{
     height: 40px;
     line-height: 40px;
     border-radius: 20px;
+}
+.Course .CourseList>.course-box {
+    padding: 2px 4px;
 }
 .Course .course-card{
     border-radius: 5px;
