@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Admin
-* @Last Modified time: 2020-09-11 00:38:23
+* @Last Modified time: 2020-09-11 00:48:23
 */
 body{
     width:100%;
@@ -106,9 +106,7 @@ div.icon,i.icon{
 .card>.card-content,.card>.footer{
     display:flex;
 }
-/* .card>.card-card-content_text{
-    
-} */
+
 .card>.card-card-content>.img{
     background-color:#c2c2c2;
     border-radius:4px;
@@ -121,17 +119,11 @@ div.icon,i.icon{
     width:100%;
     height:40px;
 }
-/* .mdl-card .mdl-card__supporting-text,.mdl-card__actions.mdl-card--border,
-.mdl-card .mdl-card__title-text,.mdl-card__actions>.mdl-button{
-    
-} */
+
 .mdl-layout__drawer .mdl-navigation__link:hover{
     color:#2a80ca !important;
 }
-/* .mdl-layout--large-screen-only>.mdl-navigation__link:hover{
-}
-.main-card{
-} */
+
 .mdl-card__actions.mdl-card--border{
     display:flex;
 }
@@ -304,10 +296,6 @@ div.icon,i.icon{
 .Course .mdl-card{
     width: 51%;
     background-color: rgba(255, 255, 255, 0.75);
-}
-
-.Course .mdl-card-expand{
-    width: 60px;
 }
 /* Course end */
 
