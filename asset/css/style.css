@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Admin
-* @Last Modified time: 2020-09-10 17:31:17
+* @Last Modified time: 2020-09-11 00:38:23
 */
 body{
     width:100%;
@@ -120,9 +120,6 @@ div.icon,i.icon{
     border-top:1px solid #a4d3ee;
     width:100%;
     height:40px;
-}
-.mdl-card.card-wide{
-    width:60%;
 }
 /* .mdl-card .mdl-card__supporting-text,.mdl-card__actions.mdl-card--border,
 .mdl-card .mdl-card__title-text,.mdl-card__actions>.mdl-button{
