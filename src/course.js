@@ -2,7 +2,7 @@
  * @Author: Admin
  * @Date:   2020-09-09 13:14:05
  * @Last Modified by:   Admin
- * @Last Modified time: 2020-09-09 13:29:40
+ * @Last Modified time: 2020-09-16 02:24:01
  */
 
 /**
@@ -40,7 +40,7 @@ function dateDiff(start, end) {
     let ms = 1000;
     let times = [ms, ms *= 60, ms *= 60, ms *= 60, ms *= 24];
     let dhms = new Array(4);
-    for (let i = 3; i >= 0; i--) {
+    for (let i = 4; i >= 0; i--) {
         dhms[i] = ~~(val / times[i]);
         val %= times[i];
     }
