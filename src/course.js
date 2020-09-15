@@ -2,7 +2,7 @@
  * @Author: Admin
  * @Date:   2020-09-09 13:14:05
  * @Last Modified by:   Admin
- * @Last Modified time: 2020-09-16 02:24:01
+ * @Last Modified time: 2020-09-16 02:59:02
  */
 
 /**
@@ -103,17 +103,17 @@ main.controller('CourseCtrl', ["$scope", "$http", function($scope, $http) {
     }, function(res) {
         console.log(res.staus);
     });
-    var diff = dateDiff("2020-9-1");
-    var week = diff.day / 7;
+    /*var diff = dateDiff("2020-9-1");*/
+    var week = Number(moment().format('w'))-35;/*diff.day / 7;*/
     var time = new Date().getTime();
     $http({
         method: 'get',
         url: "DB/course.json?t=" + time
     }).then(function(res) {
         $scope.dataset.courseData = res.data;
-        if (week % (~~week) != 0) {
+        /*if (week % (~~week) != 0) {
             week = (~~week) + 1
-        }
+        }*/
         var day = new Date().getDay();
         Object.keys($scope.dataset.courseData).map(key => {
             var step = $scope.dataset.courseData[key];
