@@ -72,7 +72,7 @@
     { "link":"https://nmap.org","name":"Nmap","tag":["CTF","Hacker","网络安全","端口扫描","工具","IT"]},
     { "link":"https://www.wireshark.org","name":"wireshark","tag":["CTF","Hacker","网络安全","流量分析","工具","IT"]},
     { "link":"https://www.aircrack-ng.org","name":"Aircrack","tag":["CTF","Hacker","网络安全","无线攻击","工具","IT"]},
-    { "link":"https://www.hackthebox.eu","name":"HackTheBox","tag":["CTF","Hacker","网络安全","CTF","IT"]},
+    { "link":"https://www.hackthebox.eu","name":"HackTheBox","tag":["CTF","Hacker","网络安全","IT"]},
     { "link":"https://www.foodiesfeed.com/","name":"Foodiesfeed","tag":["免费","图片"]},
     { "link":"http://nipponcolors.com/","name":"日本传统颜色","tag":["配色","设计"]},
     { "link":"https://color.uisdc.com/","name":"中日传统颜色","tag":["配色","设计"]},
