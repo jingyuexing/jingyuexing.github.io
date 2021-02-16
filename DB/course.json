@@ -1,0 +1,166 @@
+{
+  "1": [
+    {
+      "class": [
+        "计科Z62001",
+        "计科Z62002"
+      ],
+      "classRoom": "1503",
+      "courseName": "基于.NET的WEB程序设计",
+      "teacher": "陈小娟",
+      "until": [
+        11,
+        12
+      ],
+      "weekDay": [
+        1
+      ]
+    },
+    {
+      "class": [
+        "计科Z62001",
+        "计科Z62002"
+      ],
+      "classRoom": "1503",
+      "courseName": "windows程序设计",
+      "teacher": "白海涛",
+      "until": [
+        4,
+        10
+      ],
+      "weekDay": [
+        1
+      ]
+    },
+    {
+      "class": [
+        "计科Z62001",
+        "计科Z62002"
+      ],
+      "classRoom": "2304",
+      "courseName": "windows程序设计",
+      "teacher": "白海涛",
+      "until": [
+        4,
+        10
+      ],
+      "weekDay": [
+        3,
+        5
+      ]
+    },
+    {
+      "class": [
+        "计科Z62001",
+        "计科Z62002"
+      ],
+      "classRoom": "1503",
+      "courseName": "离散数学",
+      "teacher": "刘瑶环",
+      "until": [
+        1,
+        10
+      ],
+      "weekDay": [
+        2
+      ]
+    },
+    {
+      "class": [
+        "计科Z62001",
+        "计科Z62002"
+      ],
+      "classRoom": "1306",
+      "courseName": "离散数学",
+      "teacher": "刘瑶环",
+      "until": [
+        1,
+        10
+      ],
+      "weekDay": [
+        4
+      ]
+    }
+  ],
+  "2": [
+    {
+      "class": [
+        "计科Z62001",
+        "计科Z62002"
+      ],
+      "classRoom": "S1402",
+      "courseName": "数据库原理及应用(上机)",
+      "teacher": "汪利琴",
+      "until": [
+        2,
+        9
+      ],
+      "weekDay": [
+        3
+      ]
+    }
+  ],
+  "3": [
+    {
+      "class": [
+        "计科Z62001",
+        "计科Z62002",
+        "计科Z62003"
+      ],
+      "classRoom": "2201",
+      "courseName": "中国近现代史纲要",
+      "teacher": "胡兆凌",
+      "until": [
+        1,
+        16
+      ],
+      "weekDay": [
+        5
+      ]
+    }
+  ],
+  "4": [
+    {
+      "class": [
+        "计科Z62001",
+        "计科Z62002"
+      ],
+      "classRoom": "2501",
+      "courseName": "数据库原理及应用",
+      "teacher": "汪利琴",
+      "until": [
+        1,
+        10
+      ],
+      "weekDay": [
+        1
+      ]
+    },
+    {
+      "class": [
+        "计科Z62001",
+        "计科Z62002"
+      ],
+      "classRoom": "2506",
+      "courseName": "数据库原理及应用",
+      "teacher": "汪利琴",
+      "until": [
+        1,
+        10
+      ],
+      "weekDay": [
+        3
+      ]
+    }
+  ],
+  "5": [
+    {
+      "class": [],
+      "classRoom": "",
+      "courseName": "",
+      "teacher": "",
+      "until": [],
+      "weekDay": []
+    }
+  ]
+}

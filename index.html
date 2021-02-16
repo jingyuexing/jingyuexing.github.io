@@ -13,6 +13,7 @@
   <script src="asset/lib/chart/chart.min.js"></script>
 	<script src="framework/angular-1.7.5/angular.min.js"></script>
 	<script src="framework/angular-1.7.5/angular-route.min.js"></script>
+  <script language="javascript" src="asset/lib/moment/moment.min.js"></script>
   <script src="src/main.js"></script>
   <script src="src/app.js"></script>
   <script src="src/require.js"></script>
@@ -35,7 +36,13 @@
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="#!/home"><i class="icon material-icons">home</i>首页</a>
       <a class="mdl-navigation__link" href="#!/user"><i class="icon material-icons">account_circle</i>用户</a>
+      <a href="#!/course" class="mdl-navigation__link">
+        <i class="icon material-icons">
+          school
+        </i> 课程
+      </a>
       <a class="mdl-navigation__link" href="#!/kind"><i class="icon material-icons">reorder</i>分类</a>
+      <a class="mdl-navigation__link" href="#!/data">数据</a>
       <a class="mdl-navigation__link" href="#!/aboutme">关于我</a>
     </nav>
   </div>
@@ -71,6 +78,7 @@ Ele.setAttribute("style",`background: url(asset/img/${urlName})`)
 <script src="src/msg.js"></script>
 <script src="src/login.js"></script>
 <script src="src/wether.js"></script>
-<script src="src/source.js"></script>
+<script src="src/course.js"></script>
+<script src="src/data.js"></script>
 </body>
 </html>

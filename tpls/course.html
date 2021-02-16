@@ -1,0 +1,49 @@
+<div class="Course">
+    <div class="timelist" ng-repeat="value in dataset.timeLine">
+        <div class="timeitem">
+            {{value.item}}
+        </div>
+        <div class="timeclock">
+            {{value.time[0]}}---{{value.time[1]}}
+        </div>
+    </div>
+    <div class="now">
+        <div>
+            <div class="course1">
+                当前是<a href="#!/course">{{dataset.now}}</a> 
+            </div>
+            <div class="course2">
+                并且是<span id="course">{{dataset.course}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title mdl-card-expand">
+            <h5>今天的课程</h5>
+        </div>
+        <div class="mdl-card__actions">
+            <div class="mdl-list" ng-repeat="data in dataset.todayCourse">
+                <div class="mdl-list__item mdl-list__item--three-line">
+                    <span class="mdl-list__item-primary-content">
+                        <i class="material-icons mdl-list__item-avatar">school</i>
+                        <span class="header-text">{{data.courseName}}</span>
+                        <span class="mdl-list__item-text-body">
+                            <div class="mdl-chip mdl-chip--contact">
+                                <div class="mdl-chip__contact mdl-color--teal mdl-color-text--white">师</div>
+                                <div class="mdl-chip__text">{{data.teacher}}</div>
+                            </div>
+                            <div class="mdl-chip mdl-chip--contact">
+                                <div class="mdl-chip__contact mdl-color--amber-700 mdl-color-text--white">室</div>
+                                <div class="mdl-chip__text">{{data.classRoom}}</div>
+                            </div>
+                            <div class="mdl-chip mdl-chip--contact">
+                                <div class="mdl-chip__contact mdl-color--cyan-A700 mdl-color-text--white">节</div>
+                                <div class="mdl-chip__text">第{{data.numebr}}大节</div>
+                            </div>
+                        </span>
+                    </span>
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>

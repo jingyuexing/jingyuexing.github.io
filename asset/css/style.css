@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
 * @Last Modified by:   Jingyuexing
-* @Last Modified time: 2020-08-25 10:13:58
+* @Last Modified time: 2021-02-16 17:52:22
 */
 body{
     width:100%;
@@ -17,19 +17,11 @@ body{
   width:80%;
 }
 .demo-card-wide > .mdl-card__title {
-  color: #fff;
   height: 176px;
   background:center / cover;
 }
-.demo-card-wide > .mdl-card__menu {
-  color: #fff;
-}
-.mdl-layout__header{
-    background-color:#2a80ca !important;
-}
-.head{
-    background-color:#91e374 !important;
-}
+
+
 main.mdl-layout__content{
     /* background:url("../img/winterBg.jpg"); */
     background-size:cover !important;
@@ -46,9 +38,7 @@ main.mdl-layout__content{
     background-size:cover;
     background-repeat:no-repeat;
 }
-.mdl-card .mdl-card__title-text{
-    color:#fff;
-}
+
 .icon:hover,.material-icons:hover{
     cursor: default;
 }
@@ -86,9 +76,7 @@ div.icon,i.icon{
     width:80%;
     margin:0 auto;
 }
-.page-content>.card{
-    background-color:rgba(255, 255, 255, 0.53);
-}
+
 .mdl-layout__drawer .mdl-navigation__link>.icon{
     font-size:1.8em;
     display:inline-block;
@@ -106,9 +94,7 @@ div.icon,i.icon{
 .card>.card-content,.card>.footer{
     display:flex;
 }
-/* .card>.card-card-content_text{
-    
-} */
+
 .card>.card-card-content>.img{
     background-color:#c2c2c2;
     border-radius:4px;
@@ -121,20 +107,6 @@ div.icon,i.icon{
     width:100%;
     height:40px;
 }
-.mdl-card.card-wide{
-    width:60%;
-}
-/* .mdl-card .mdl-card__supporting-text,.mdl-card__actions.mdl-card--border,
-.mdl-card .mdl-card__title-text,.mdl-card__actions>.mdl-button{
-    
-} */
-.mdl-layout__drawer .mdl-navigation__link:hover{
-    color:#2a80ca !important;
-}
-/* .mdl-layout--large-screen-only>.mdl-navigation__link:hover{
-}
-.main-card{
-} */
 .mdl-card__actions.mdl-card--border{
     display:flex;
 }
@@ -148,8 +120,6 @@ div.icon,i.icon{
     padding:4px 10px;
     text-align:center;
     margin:1px 4px;
-    color:#0a84a0;
-    background:rgba(4, 168, 184, 0.5215686274509804);
     transition:all .4s ease-in-out;
 }
 .tag:hover{
@@ -212,10 +182,7 @@ div.icon,i.icon{
     background-color: rgba(239, 239, 239, 0.86);
     transition: all .4s ease-in-out;
 }
-.capsule:hover{
-    background-color:#e8e8e8;
-    box-shadow:0px 1px 10px #bdbdbd;
-}
+
 .icon{
     text-align: center;
     font-size:1.5em;
@@ -239,9 +206,7 @@ div.icon,i.icon{
     text-decoration: none;
     transition: color .4s ease-in-out;
 }
-.capsule .title>a:hover{
-    color:#2a80ca;
-}
+
 .capsule .tag{
     position: relative;
     margin-top: 16px;
@@ -250,11 +215,65 @@ div.icon,i.icon{
     padding: 0 12px;
     font-size: 14px;
     line-height: 30px;
-    color: #0084ff;
     vertical-align: top;
     border-radius: 100px;
-    background: rgba(0,132,255,.1);
 }
+
+.empty{
+    display: none;
+}
+/* Course start */
+
+
+.Course>.timelist{
+    margin:0 auto;
+    display: flex;
+    height: 40px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px 1px 10px #323232;
+} 
+
+.timelist .timeitem,.timelist .timeclock{
+    width: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.5rem;
+}
+.Course>.now{
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+}
+.now>div{
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+}
+.Course .mdl-card__title{
+    color: #4876f2;
+}
+.Course .mdl-list__item-avatar{
+    color:#fff;
+    background-color:#0084ff;
+}
+.Course .header-text{
+    font-size: 1.6rem;
+}
+.Course .mdl-card{
+    width: 51%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+/* Course end */
+
+
 .chinese{
     position: fixed;
     top: 50%;
@@ -345,5 +364,11 @@ div.icon,i.icon{
         height:4vw;
         font-size:0.5rem;
         line-height: 4vw
+    }
+    .Course .mdl-card{
+        width: 96%;
+    }
+    .Course .mdl-list__item-text-body{
+        display: flex;
     }
 }

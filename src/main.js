@@ -1,8 +1,8 @@
 /*
 * @Author: Jingyuexing
 * @Date:   2018-12-31 21:46:27
-* @Last Modified by:   Jingyuexing
-* @Last Modified time: 2020-08-19 06:18:25
+* @Last Modified by:   Admin
+* @Last Modified time: 2020-09-09 13:19:05
 */
 /**
 * router Module
@@ -40,6 +40,12 @@ main.config(['$routeProvider',function($routeProvider) {
     }).when('/source', {
         templateUrl: 'source.html',
         controller: 'SourceCtrl'
+    }).when('/data', {
+        templateUrl: 'tpls/data.html',
+        controller: 'DataCtrl'
+    }).when('/course', {
+        templateUrl: 'tpls/course.html',
+        controller: 'CourseCtrl'
     }).otherwise("/kind");
 }]);
 (function(){
