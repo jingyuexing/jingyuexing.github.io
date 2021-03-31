@@ -67,6 +67,8 @@
     { "link":"http://zhongguose.com","name":"中国色","tag":["设计","配色"]},
     { "link":"https://colorhunt.co/","name":"Colorhunt","tag":["设计","配色"]},
     { "link":"https://adworld.xctf.org.cn/","name":"攻防世界","tag":["CTF","Hacker","网络安全","IT"]},
+    { "link":"https://ctf-wiki.org/","name":"CTF Wiki","tag":["CTF","Hacker","网络安全","IT"]},
+    { "link":"https://www.exploit-db.com/","name":"Expoloit Database","tag":["Expoloit","Hacker","网络安全","IT"]},
     { "link":"https://ctf-wiki.github.io/ctf-wiki/","name":"CTF-wiki","tag":["CTF","Hacker","网络安全","IT"]},
     { "link":"https://www.zoomeye.org/","name":"钟馗之眼","tag":["CTF","Hacker","网络安全","搜索引擎","IT"]},
     { "link":"https://www.shodan.io","name":"shodan","tag":["CTF","Hacker","网络安全","搜索引擎","IT"]},
