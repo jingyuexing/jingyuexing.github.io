@@ -2,7 +2,7 @@
 * @Author: Jingyuexing
 * @Date:   2018-12-31 21:46:27
 * @Last Modified by:   Admin
-* @Last Modified time: 2020-09-09 13:19:05
+* @Last Modified time: 2021-04-07 18:42:12
 */
 /**
 * router Module
@@ -28,9 +28,6 @@ main.config(['$routeProvider',function($routeProvider) {
     }).when("/kind",{
         templateUrl:"tpls/kind.html",
         controller:"kindCtrl",
-    }).when("/home",{
-        templateUrl:"tpls/home.html",
-        controller:"homeCtrl",
     }).when("/sport",{
         templateUrl:"tpls/sport.html",
         controller:"sportCtrl"
