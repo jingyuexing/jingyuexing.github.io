@@ -1,8 +1,8 @@
 /*
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
-* @Last Modified by:   Jingyuexing
-* @Last Modified time: 2021-02-16 17:52:22
+* @Last Modified by:   Admin
+* @Last Modified time: 2021-03-29 00:41:51
 */
 body{
     width:100%;
@@ -332,7 +332,6 @@ div.icon,i.icon{
         font-size: 1.2em;
     }
     .capsule .tag{
-        width: 43px !important;
         height:10px;
     }
     .page-content, .content{
