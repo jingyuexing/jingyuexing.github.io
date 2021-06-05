@@ -14,6 +14,7 @@
     { "link":"http://www.cnnvd.org.cn/web/index.html","name":"国家信息安全漏洞库","tag":["漏洞发布","官方"]},
     { "link":"https://www.wolframalpha.com/", "name": "WolframAlpha", "tag": ["搜索引擎"] },
     { "link":"http://www.cn-ki.net/","name":"IDATA","tag":["搜索引擎","论文"]},
+    { "link":"http://wsdj.samr.gov.cn/saicmcdjweb/","name":"企业登记网上注册申报系统","tag":["国家市场监督管理总局","政府网站","官方"]},
     { "link":"http://videos.yizhansou.com","name":"一站搜","tag":["搜索引擎","视频"]},
     { "link":"http://www.hejizhan.com/html/search/","name":"万千集合站","tag":["搜索引擎","资料"]},
     { "link":"https://thispersondoesnotexist.com/","name":"This Person Does Not Exist","tag":["GAN","AI","图片生成"]},
