@@ -12,6 +12,7 @@
     { "link":"https://www.aminer.cn/","name":"AMiner","tag":["搜索引擎","学术","科研"]},
     { "link":"http://www.yunpz.net/","name":"云铺子","tag":["搜索引擎","资料"]},
     { "link":"http://www.cnnvd.org.cn/web/index.html","name":"国家信息安全漏洞库","tag":["漏洞发布","官方"]},
+    { "link":"http://www.samr.gov.cn/","name":"国家市场监督管理总局","tag":["政府网站","官方","工商","国家市场监督管理总局"]},
     { "link":"https://www.wolframalpha.com/", "name": "WolframAlpha", "tag": ["搜索引擎"] },
     { "link":"http://www.cn-ki.net/","name":"IDATA","tag":["搜索引擎","论文"]},
     { "link":"http://wsdj.samr.gov.cn/saicmcdjweb/","name":"企业登记网上注册申报系统","tag":["国家市场监督管理总局","政府网站","官方"]},
