@@ -125,6 +125,8 @@
     { "link":"https://www.typescriptlang.org/", "name": "TypeScript", "tag": ["官网","编程语言","TypeScript","IT"] },
     { "link":"https://kotlinlang.org/","name":"Kotlin","tag":["官网","编程语言","Kotlin","开源","IT"]},
     { "link":"https://golang.google.cn/","name":"Golang","tag":["官网","编程语言","Golang","开源","IT"]},
+    { "link":"https://www.rust-lang.org/","name":"Rust","tag":["官网","编程语言","Rust","开源","IT"]},
+    { "link":"https://crates.io/","name":"crates","tag":["官网","包管理(packages)","Rust","开源","IT"]},
     { "link":"https://go.dev/","name":"GODEV","tag":["官网","Golang","包管理(packages)","开源","IT"]},
     { "link":"https://www.python.org/","name":"Python","tag":["官网","编程语言","开源","IT"]},
     { "link":"https://www.ruby-lang.org/en/","name":"Ruby","tag":["官网","编程语言","开源","IT"]},
