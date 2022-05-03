@@ -1,10 +1,11 @@
-[[
+[
     { "link":"https://www.google.com/ncr", "name": "Google", "tag": ["搜索引擎"] },
     { "link":"https://duckduckgo.com/", "name": "Duckduckgo", "tag": ["搜索引擎"] },
     { "link":"https://mijisou.com/", "name": "密迹搜索", "tag": ["搜索引擎"] },
     { "link":"https://yandex.com/", "name": "Yandex", "tag": ["搜索引擎"] },
     { "link":"https://www.baidu.com", "name": "百度", "tag": ["搜索引擎"] },
     { "link":"https://www.bing.com/?mkt=zh-cn", "name": "必应", "tag": ["搜索引擎"] },
+    { "link":"https://www.ecosia.org/search", "name": "ecosia", "tag": ["搜索引擎"] },
     { "link":"https://magi.com","name":"Magi","tag":["搜索引擎"]},
     { "link":"https://www.asklib.com/","name":"问答库","tag":["搜索引擎","资料"]},
     { "link":"https://www.zqbook.top/","name":"智奇搜书","tag":["搜索引擎","图书"]},
@@ -66,6 +67,7 @@
     { "link":"https://dribbble.com", "name": "Dribbble", "tag": ["设计"] },
     { "link":"https://www.githubs.cn/", "name": "Githubs", "tag": ["IT","github","开源社区"] },
     { "link":"https://github.com", "name": "Github", "tag": ["开源社区","代码托管"] },
+    { "link":"https://searchcode.com/", "name": "Search Code", "tag": ["代码搜索","IT"] },
     { "link":"https://gitlab.com/explore", "name": "Gitlab", "tag": ["开源社区","代码托管"] },
     { "link":"https://gitee.com/", "name": "码云", "tag": ["开源社区","代码托管"] },
     { "link":"https://bitbucket.org/", "name": "bitbucket", "tag": ["开源社区","代码托管"] },
@@ -235,4 +237,4 @@
     { "link":"https://www.harvard.edu/","name":"哈弗大学","tag":["官网","高校"]},
     { "link":"https://www.stanford.edu","name":"斯坦福大学","tag":["官网","高校"]},
     { "link":"http://www.mit.edu/","name":"麻省理工学院","tag":["官网","高校"]}
-]]
+]
