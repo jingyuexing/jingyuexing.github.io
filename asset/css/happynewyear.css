@@ -1,0 +1,60 @@
+/*
+* @Author: Jingyuexing
+* @Date:   2021-02-16 16:34:53
+* @Last Modified by:   Jingyuexing
+* @Last Modified time: 2021-02-16 17:56:42
+*/
+:root{
+   --NY_R1: #af193c;
+   --NY_R2: rgba(175, 25, 60, 0.5);
+   --NY_R3: rgba(113, 14, 37, 0.5);
+   --NY_R4: #830925;
+   --NY_Y1: #ffe6b0;
+   --NY_Y2: rgba(255, 230, 176, .4);
+   --NY_Y3: #fe9249;
+}
+.capsule>.icon{
+    color:var(--NY_Y3);
+    background-color:var(--NY_R4) !important;
+}
+.capsule{
+    background-color:var(--NY_R1) !important;
+}
+.capsule:hover{
+    background-color: var(--NY_R2);
+    box-shadow: 0px 1px 10px #232323 !important;
+}
+.tag{
+    color:var(--NY_Y3) !important;
+    background-color:var(--NY_R3) !important;
+}
+/* a  */
+.capsule .title > a,
+.mdl-layout__header-row .mdl-navigation__link{
+    color: var(--NY_Y2)!important;
+}
+.capsule .title > a:hover,
+.mdl-layout__header-row .mdl-navigation__link:hover{
+    color: var(--NY_Y1) !important;
+}
+
+.mdl-layout__header{
+    color:var(--NY_Y3) !important;
+    background-color: var(--NY_R1) !important;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
+    color:var(--NY_Y3) !important;
+}
+.mdl-layout__drawer{
+    background-color: var(--NY_R1);
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover{
+    background-color: rgba(50, 50, 50, 0.3) !important;
+    color:var(--NY_Y1) !important;
+}
+.mdl-layout-title{
+    color:var(--NY_Y3) !important;
+}
+.mdl-layout__drawer-button{
+    color:var(--NY_Y2) !important;
+}

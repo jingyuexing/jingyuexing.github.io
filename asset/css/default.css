@@ -1,0 +1,46 @@
+/*
+* @Author: Jingyuexing
+* @Date:   2021-02-16 17:42:25
+* @Last Modified by:   admin
+* @Last Modified time: 2022-05-05 19:13:03
+*/
+:root{
+    --white:#fff;
+    --white2:rgba(255, 255, 255, 0.53) ;
+    --green1: #91e374;
+    --blue1: #2a80ca;
+    --blue2: #0a84a0;
+    --blue3: #0084ff;
+    --blue3_1: rgba(0,132,255,.1);
+    --blue2: #a4d3ee;
+}
+.demo-card-wide > .mdl-card__title {
+  color: var(--white);
+}
+.demo-card-wide > .mdl-card__menu ,.mdl-card .mdl-card__title-text{
+  color: var(--white);
+}
+.mdl-layout__header{
+    background-color:var(--blue1) !important;
+}
+.head{
+    background-color:var(--green1) !important;
+}
+.page-content>.card{
+    background-color:var(--white2);
+}
+.tag{
+    color:var(--blue2);
+    background:rgba(4, 168, 184, 0.5215686274509804);
+}
+.mdl-layout__drawer .mdl-navigation__link:hover,.capsule .title>a:hover{
+    color:var(--blue1) !important;
+}
+.capsule .tag{
+    color:var(--blue3);
+    background:var(--blue3_1);
+}
+.capsule:hover{
+    background-color:#e8e8e8;
+    box-shadow:0px 1px 10px rgba(189, 189, 189, 0.81);
+}
