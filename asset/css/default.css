@@ -1,8 +1,8 @@
 /*
 * @Author: Jingyuexing
 * @Date:   2021-02-16 17:42:25
-* @Last Modified by:   Jingyuexing
-* @Last Modified time: 2021-02-17 16:09:26
+* @Last Modified by:   admin
+* @Last Modified time: 2022-05-05 19:13:03
 */
 :root{
     --white:#fff;
@@ -42,5 +42,5 @@
 }
 .capsule:hover{
     background-color:#e8e8e8;
-    box-shadow:0px 1px 10px #bdbdbd;
+    box-shadow:0px 1px 10px rgba(189, 189, 189, 0.81);
 }

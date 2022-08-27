@@ -1,8 +1,8 @@
 /*
 * @Author: Jingyuexing
 * @Date:   2018-12-29 22:47:40
-* @Last Modified by:   Admin
-* @Last Modified time: 2021-03-29 00:41:51
+* @Last Modified by:   admin
+* @Last Modified time: 2022-05-05 19:10:29
 */
 body{
     width:100%;
@@ -177,9 +177,10 @@ div.icon,i.icon{
     height:60px;
     display: flex;
     margin: 12px auto;
+    backdrop-filter: blur(1mm);
     border-radius:60px;
     padding: 4px 4px;
-    background-color: rgba(239, 239, 239, 0.86);
+    background-color: rgba(239, 239, 239, 0.45);
     transition: all .4s ease-in-out;
 }
 
