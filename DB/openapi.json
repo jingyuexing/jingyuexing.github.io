@@ -1,0 +1,671 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "title": "Kraken Exploit Framework",
+        "description": "The Kraken Framework web interface",
+        "version": "0.1.0"
+    },
+    "paths": {
+        "/kraken/scan": {
+            "post": {
+                "tags": [
+                    "Scanner"
+                ],
+                "summary": "Scan",
+                "operationId": "scan_kraken_scan_post",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Scanner"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResultModel"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/kraken/dirmap": {
+            "post": {
+                "tags": [
+                    "DIRMAP"
+                ],
+                "summary": "Dirmap",
+                "operationId": "dirmap_kraken_dirmap_post",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Body_dirmap_kraken_dirmap_post"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResultModel"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/kraken/random_password": {
+            "get": {
+                "tags": [
+                    "password dictionary"
+                ],
+                "summary": "Random Password",
+                "description": "返回一个随机密码",
+                "operationId": "random_password_kraken_random_password_get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResultModel"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/kraken/password": {
+            "put": {
+                "tags": [
+                    "password dictionary"
+                ],
+                "summary": "Update Password",
+                "operationId": "update_password_kraken_password_put",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Body_update_password_kraken_password_put"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResultModel"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "password dictionary"
+                ],
+                "summary": "Find Password",
+                "description": "查找指定的密码",
+                "operationId": "find_password_kraken_password_post",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Body_find_password_kraken_password_post"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResultModel"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/kraken/password/list": {
+            "get": {
+                "tags": [
+                    "password dictionary"
+                ],
+                "summary": "Get Password List",
+                "description": "获取密码列表",
+                "operationId": "get_password_list_kraken_password_list_get",
+                "parameters": [
+                    {
+                        "required": false,
+                        "schema": {
+                            "title": "Page",
+                            "type": "integer",
+                            "default": 0
+                        },
+                        "name": "page",
+                        "in": "query"
+                    },
+                    {
+                        "required": false,
+                        "schema": {
+                            "title": "Page Size",
+                            "type": "integer",
+                            "default": 10
+                        },
+                        "name": "page_size",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResultModel"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/kraken/password/upload": {
+            "post": {
+                "tags": [
+                    "password dictionary"
+                ],
+                "summary": "Upload Password Dict",
+                "description": "上传文件字典",
+                "operationId": "upload_password_dict_kraken_password_upload_post",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Body_upload_password_dict_kraken_password_upload_post"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResultModel"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/static/icons/technology/{iconsName}": {
+            "get": {
+                "summary": "Get Technologies Icon",
+                "operationId": "get_technologies_icon_static_icons_technology__iconsName__get",
+                "parameters": [
+                    {
+                        "required": true,
+                        "schema": {
+                            "title": "the technology icon",
+                            "type": "string"
+                        },
+                        "name": "iconsName",
+                        "in": "path"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/kraken/exploit": {
+            "post": {
+                "tags": [
+                    "exploit"
+                ],
+                "summary": "Exploit",
+                "operationId": "exploit_kraken_exploit_post",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResultModel"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/kraken/exploit/list": {
+            "get": {
+                "tags": [
+                    "exploit"
+                ],
+                "summary": "Get Exploit List",
+                "operationId": "get_exploit_list_kraken_exploit_list_get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResultModel"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/kraken/exploit/generator/shellcode": {
+            "post": {
+                "tags": [
+                    "generator"
+                ],
+                "summary": "Getnerator",
+                "operationId": "getnerator_kraken_exploit_generator_shellcode_post",
+                "parameters": [
+                    {
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/components/schemas/PlatformModel"
+                        },
+                        "name": "platform",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResultModel"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/kraken/exploit/generator": {
+            "post": {
+                "tags": [
+                    "generator"
+                ],
+                "summary": "Generator",
+                "operationId": "generator_kraken_exploit_generator_post",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/GeneratorConfigModel"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResultModel"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Validation Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HTTPValidationError"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Body_dirmap_kraken_dirmap_post": {
+                "title": "Body_dirmap_kraken_dirmap_post",
+                "required": [
+                    "target"
+                ],
+                "type": "object",
+                "properties": {
+                    "target": {
+                        "title": "Target",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/DirMapModel"
+                        }
+                    }
+                }
+            },
+            "Body_find_password_kraken_password_post": {
+                "title": "Body_find_password_kraken_password_post",
+                "required": [
+                    "password"
+                ],
+                "type": "object",
+                "properties": {
+                    "password": {
+                        "title": "Password",
+                        "type": "string"
+                    }
+                }
+            },
+            "Body_update_password_kraken_password_put": {
+                "title": "Body_update_password_kraken_password_put",
+                "required": [
+                    "passwordList"
+                ],
+                "type": "object",
+                "properties": {
+                    "passwordList": {
+                        "title": "Passwordlist",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "Body_upload_password_dict_kraken_password_upload_post": {
+                "title": "Body_upload_password_dict_kraken_password_upload_post",
+                "required": [
+                    "file"
+                ],
+                "type": "object",
+                "properties": {
+                    "file": {
+                        "title": "File",
+                        "type": "string",
+                        "description": "the passwor dictionary",
+                        "format": "binary"
+                    }
+                }
+            },
+            "DirMapModel": {
+                "title": "DirMapModel",
+                "required": [
+                    "host"
+                ],
+                "type": "object",
+                "properties": {
+                    "host": {
+                        "title": "Host",
+                        "type": "string"
+                    }
+                }
+            },
+            "GeneratorConfigModel": {
+                "title": "GeneratorConfigModel",
+                "required": [
+                    "mode",
+                    "payload"
+                ],
+                "type": "object",
+                "properties": {
+                    "mode": {
+                        "$ref": "#/components/schemas/GeneratorMode"
+                    },
+                    "payload": {
+                        "title": "Payload",
+                        "type": "string"
+                    },
+                    "secret": {
+                        "title": "Secret",
+                        "type": "string"
+                    }
+                }
+            },
+            "GeneratorMode": {
+                "title": "GeneratorMode",
+                "enum": [
+                    "shellcode",
+                    "md5",
+                    "base64",
+                    "base85",
+                    "sha1",
+                    "sha256",
+                    "sha224",
+                    "sha384",
+                    "sha512",
+                    "hmac"
+                ],
+                "description": "An enumeration."
+            },
+            "HTTPValidationError": {
+                "title": "HTTPValidationError",
+                "type": "object",
+                "properties": {
+                    "detail": {
+                        "title": "Detail",
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/ValidationError"
+                        }
+                    }
+                }
+            },
+            "PlatformModel": {
+                "title": "PlatformModel",
+                "enum": [
+                    "arch64",
+                    "arm",
+                    "mips",
+                    "thumb",
+                    "x86",
+                    "x86_64",
+                    "ppc64",
+                    "ppc64le"
+                ],
+                "description": "An enumeration."
+            },
+            "ResultModel": {
+                "title": "ResultModel",
+                "required": [
+                    "data",
+                    "status",
+                    "message"
+                ],
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "title": "Data",
+                        "type": "array",
+                        "items": {}
+                    },
+                    "status": {
+                        "title": "Status",
+                        "type": "integer"
+                    },
+                    "message": {
+                        "title": "Message",
+                        "type": "string"
+                    }
+                }
+            },
+            "Scanner": {
+                "title": "Scanner",
+                "required": [
+                    "host"
+                ],
+                "type": "object",
+                "properties": {
+                    "host": {
+                        "title": "Host",
+                        "type": "string"
+                    },
+                    "port": {
+                        "title": "Port",
+                        "type": "integer"
+                    },
+                    "mode": {
+                        "title": "Mode",
+                        "type": "string"
+                    }
+                }
+            },
+            "ValidationError": {
+                "title": "ValidationError",
+                "required": [
+                    "loc",
+                    "msg",
+                    "type"
+                ],
+                "type": "object",
+                "properties": {
+                    "loc": {
+                        "title": "Location",
+                        "type": "array",
+                        "items": {
+                            "anyOf": [
+                                {
+                                    "type": "string"
+                                },
+                                {
+                                    "type": "integer"
+                                }
+                            ]
+                        }
+                    },
+                    "msg": {
+                        "title": "Message",
+                        "type": "string"
+                    },
+                    "type": {
+                        "title": "Error Type",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
