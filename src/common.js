@@ -8,7 +8,7 @@ class Timer{
      * 
      * @param {number} age 
      */
-Timer.randomDate(age){
+Timer["randomDate"]= function(age){
         let currentYear = Timer.date.getFullYear();
         let randomSecond = 0; 
         var begin,end;
