@@ -3,13 +3,13 @@ class Timer{
         this.date = new Date();
     }
 
-}
+
     /**
      * 
      * @param {number} age 
      */
-Timer["randomDate"]= function(age){
-        let currentYear = Timer.date.getFullYear();
+    randomDate(age){
+        let currentYear = this.date.getFullYear();
         let randomSecond = 0; 
         var begin,end;
         if(age){
@@ -22,5 +22,5 @@ Timer["randomDate"]= function(age){
         randomSecond = Math.random() * (end.getTime() - begin.getTime()) + begin.getTime();
         return new Date(randomSecond);
     }
-
-console.log(Timer.randomDate())
+}
+console.log(new Timer().randomDate())
