@@ -1,8 +1,8 @@
 /*
 * @Author: Jingyuexing
 * @Date:   2018-12-31 21:46:27
-* @Last Modified by:   Admin
-* @Last Modified time: 2021-04-07 18:42:12
+* @Last Modified by:   Jingyuexing
+* @Last Modified time: 2022-09-15 09:42:26
 */
 /**
 * router Module
@@ -43,7 +43,11 @@ main.config(['$routeProvider',function($routeProvider) {
     }).when('/course', {
         templateUrl: 'tpls/course.html',
         controller: 'CourseCtrl'
-    }).otherwise("/kind");
+    }).when("/apidocs",{
+        templateUrl:"tpls/apidocs.html",
+        controller:"apidocsCtrl"
+    })
+    .otherwise("/kind");
 }]);
 (function(){
     var str = /(kind|test|login|msg|home|yul|sport|hot|edu|user|wether|aboutme)/;
