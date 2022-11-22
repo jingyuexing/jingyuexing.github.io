@@ -1,9 +1,3 @@
-/*
- * @Author: Jingyuexing
- * @Date:   2018-12-31 23:58:56
- * @Last Modified by:   admin
- * @Last Modified time: 2022-03-02 17:56:00
- */
 main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
     var status = require("https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.0/axios.min.js")
     if (status) {
@@ -83,7 +77,7 @@ main.controller('kindCtrl', ['$scope', "$http", function($scope, $http) {
                 timeText = Ct[10];
                 break;
             case 23:
-            case 24:
+            case 0:
                 timeText = Ct[11];
         }
         return timeText;
