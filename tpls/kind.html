@@ -1,0 +1,24 @@
+<div class="kind">
+    <div class="chinese">
+        <div class="showTimes chineseNewYear font-lishu">
+            {{timeText}}
+        </div>
+    </div>
+    <div class="capsule" ng-repeat="data in links">
+        <div class="icon material-icons" style="line-height:60px;">
+            timeline
+        </div>
+        <div class="box">
+            <div class="title">
+                <a href="{{data.link}}" target="_blank">
+                    {{data.name}}
+                </a>
+            </div>
+            <div class="tags">
+                <div class="tag" ng-click="enbale()" ng-repeat="tag in data.tag">
+                    {{tag}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,2110 @@
+/*
+* @Author: Admin
+* @Date:   2019-12-24 16:21:21
+* @Last Modified by:   Admin
+* @Last Modified time: 2019-12-24 17:50:06
+*/
+
+:root {
+    --anyuzi: #5c2223;
+    --mudanfenhong: #eea2a4;
+    --lizi: #5a191b;
+    --xiangyehong: #f07c82;
+    --putaojiangzi: #5a1216;
+    --yanhong: #ed5a65;
+    --yuhong: #c04851;
+    --chahuahong: #ee3f4d;
+    --gaolianghong: #c02c38;
+    --manjianghong: #a7535a;
+    --shubihong: #e3b4b8;
+    --hehuanhong: #f0a1a8;
+    --chunmeihong: #f1939c;
+    --xiancaihong: #a61b29;
+    --yanhong: #894e54;
+    --meihong: #c45a65;
+    --eguanhong: #d11a2d;
+    --fengyehong: #c21f30;
+    --tangchangpuhong: #de1c31;
+    --zaohong: #7c1823;
+    --zhuganzi: #541e24;
+    --putaozi: #4c1f24;
+    --anziyuanhong: #82202b;
+    --yanhong: #82111f;
+    --caomolihong: #ef475d;
+    --jiangzi: #4d1018;
+    --shanchahong: #ed556a;
+    --xinhui: #7a7374;
+    --haitanghong: #f03752;
+    --jifenhong: #e6d2d5;
+    --shiruihong: #f0c9cf;
+    --danshuhong: #ee2746;
+    --lizi: #2b1216;
+    --shizhuhong: #ee4863;
+    --danqianhong: #e77c8e;
+    --jinyuzi: #500a16;
+    --shanlidouhong: #c27c88;
+    --shubeihui: #73575c;
+    --danruixianghong: #ee4866;
+    --ganzhezi: #621624;
+    --yuejihong: #ce5777;
+    --jianjingyuhong: #cc163a;
+    --shuihong: #f1c4cd;
+    --jianghong: #eeb8c3;
+    --luhui: #856d72;
+    --qiepizi: #2d0c13;
+    --cangyinghui: #36282b;
+    --jinkuihong: #bf3553;
+    --fentuanhuahong: #ec9bad;
+    --shizhuzi: #63071c;
+    --luanshizi: #30161c;
+    --jinghong: #eea6b7;
+    --zhilanzi: #e9ccd3;
+    --shaoyaogenghong: #eba0b3;
+    --muyunhui: #4f383e;
+    --jiangdouhong: #ed9db2;
+    --baochunhong: #ec8aa4;
+    --danjianghong: #ec7696;
+    --fengxianhuahong: #ea7293;
+    --xiaguanghong: #ef82a0;
+    --xidanhong: #ec2c64;
+    --jiazhutaohong: #eb507e;
+    --songyemudanhong: #eb3c70;
+    --lianbanhong: #ea517f;
+    --baijihong: #de7897;
+    --yinhonghui: #b598a1;
+    --wenpohong: #ed2f6a;
+    --cujiangcaohong: #c5708b;
+    --huoezi: #33141e;
+    --yaoguanzi: #621d34;
+    --pinhong: #ef3473;
+    --moshizi: #382129;
+    --mozi: #310f1b;
+    --tanzi: #381924;
+    --chuhehong: #e16c96;
+    --caitouzi: #951c48;
+    --putaojiuhong: #62102e;
+    --danqingzi: #e0c8d1;
+    --bogenhong: #d13c74;
+    --haixiangzi: #4b1e2f;
+    --tuyanhong: #ec4e8a;
+    --nenlinghong: #de3f7c;
+    --yangcongzi: #a8456b;
+    --diaozhonghuahong: #ce5e8a;
+    --ganzi: #461629;
+    --zijinghong: #ee2c79;
+    --biandouhuahong: #ef498b;
+    --mabiancaozi: #ede3e7;
+    --canghuahong: #ec2d7a;
+    --banjiuhui: #482936;
+    --gutongzi: #440e25;
+    --danzihong: #d2568c;
+    --dingxiangdanzi: #e9d7df;
+    --meiguihong: #d2357d;
+    --gudinghui: #36292f;
+    --lingmenghong: #d276a3;
+    --yingcaozi: #c06f98;
+    --longxuhong: #cc5595;
+    --dianqishihong: #c35691;
+    --meiguizi: #ba2f7b;
+    --xiancaizi: #9b1e64;
+    --zihui: #5d3f51;
+    --longjingyuzi: #4e2a40;
+    --qinghakezi: #bc84a8;
+    --luolanzi: #c08eaf;
+    --biqizi: #411c35;
+    --doukouzi: #ad6598;
+    --biandouzi: #a35c8f;
+    --qianniuzi: #681752;
+    --zizi: #894276;
+    --gejinzi: #7e2065;
+    --qinglian: #8b2671;
+    --jiehuazi: #983680;
+    --fengxinzi: #c8adc4;
+    --shenqianniuzi: #1c0d1a;
+    --weizi: #7e1671;
+    --wumeizi: #1e131d;
+    --jiegengzi: #813c85;
+    --danqianniuzi: #d1c2d3;
+    --jianfengzi: #3e3841;
+    --xunzi: #815c94;
+    --jinzi: #806d9e;
+    --qianshibai: #e2e1e4;
+    --longkuizi: #322f3b;
+    --tengluozi: #8076a3;
+    --shayuhui: #35333c;
+    --anlongdanzi: #22202e;
+    --anlanzi: #131124;
+    --yeputaozi: #302f4b;
+    --yejuzi: #525288;
+    --shuiniuhui: #2f2f35;
+    --yuanshanzi: #ccccd6;
+    --luodianzi: #74759b;
+    --jingshizi: #1f2040;
+    --mantianxingzi: #2e317c;
+    --danlanzi: #a7a8bd;
+    --shangengzi: #61649f;
+    --niujiaohui: #2d2e36;
+    --yuweihui: #5e616d;
+    --waguanhui: #47484c;
+    --ganglan: #0f1423;
+    --yanhanlan: #131824;
+    --jingyuhui: #475164;
+    --qinghui: #2b333e;
+    --gelan: #1c2938;
+    --anlan: #101f30;
+    --gangqing: #142334;
+    --haitaolan: #15559a;
+    --feiyancaolan: #0f59a4;
+    --dianqing: #1661ab;
+    --ananlan: #3170a7;
+    --haijunlan: #346c9c;
+    --jingtailan: #2775b6;
+    --pinlan: #2b73af;
+    --niluolan: #2474b5;
+    --diechilan: #4e7ca1;
+    --huaqing: #2376b7;
+    --yanlan: #144a74;
+    --xinglan: #93b5cf;
+    --honglan: #2177b8;
+    --bolinlan: #126bae;
+    --qunqing: #1772b4;
+    --yunshuilan: #baccd9;
+    --yushandoulan: #619ac3;
+    --zhanjianhui: #495c69;
+    --qingshanlan: #8fb2c9;
+    --jinglan: #5698c3;
+    --tangcilan: #11659a;
+    --chaolan: #2983bb;
+    --tianlan: #1677b3;
+    --dalishihui: #c4cbcf;
+    --qianniuhualan: #1177b0;
+    --baoshilan: #2486b9;
+    --danlanhui: #5e7987;
+    --nenhui: #74787a;
+    --yinyubai: #cdd1d3;
+    --youlan: #1781b5;
+    --jianshilan: #66a9c9;
+    --yuantianlan: #d0dfe6;
+    --yunshanlan: #2f90b9;
+    --qiubolan: #8abcd1;
+    --jingtianlan: #c3d7df;
+    --yuanweilan: #158bb8;
+    --yunfengbai: #d8e3e7;
+    --xinghui: #b2bbbe;
+    --gulan: #1a94bc;
+    --biqing: #5cb3cc;
+    --canglan: #134857;
+    --shenhuilan: #132c33;
+    --huilan: #21373d;
+    --hushuilan: #b0d5df;
+    --haiqing: #22a2c3;
+    --huanghunhui: #474b4c;
+    --jiqing: #63bbd0;
+    --yuqinlan: #126e82;
+    --danfanlan: #0f95b0;
+    --jianniaolan: #1491a8;
+    --oulan: #c7d2d4;
+    --cuilan: #1e9eb3;
+    --qingtinglan: #3b818c;
+    --kongquelan: #0eb0c9;
+    --weilan: #29b7cb;
+    --pubulan: #51c4d3;
+    --shanlan: #7cabb1;
+    --dianzilan: #10aec2;
+    --wanbolan: #648e93;
+    --qingshuilan: #93d5dc;
+    --xiayunhui: #617172;
+    --haitianlan: #c6e6e8;
+    --xiakeqing: #869d9d;
+    --shilv: #57c3c2;
+    --qionghui: #c4d7d6;
+    --meidielv: #12aa9c;
+    --ehui: #737c7b;
+    --lanlv: #12a182;
+    --zhulv: #1ba784;
+    --yadinglv: #428675;
+    --yueyingbai: #c0c4c3;
+    --haiwanglv: #248067;
+    --shenhailv: #1a3b32;
+    --lvhui: #314a43;
+    --qingfanlv: #2c9678;
+    --canglv: #223e36;
+    --feiquanlv: #497568;
+    --mangconglv: #141e1b;
+    --wuzhilv: #69a794;
+    --tonglv: #2bae85;
+    --caoyuanyuanlv: #9abeaf;
+    --walv: #45b787;
+    --langhualv: #92b3a5;
+    --ganlanlv: #1f2623;
+    --fenlv: #83cbac;
+    --danlvhui: #70887d;
+    --maimiaolv: #55bb8a;
+    --cuilv: #20a162;
+    --conglv: #40a070;
+    --heyelv: #1a6840;
+    --danlv: #61ac85;
+    --tianyuanlv: #68b88e;
+    --yuzanlv: #a4cab6;
+    --chanlv: #3c9566;
+    --koushaolv: #5dbe8a;
+    --bohelv: #207f4c;
+    --yuebai: #eef7f2;
+    --danbaishilv: #579572;
+    --zhuhuanglv: #b9dec9;
+    --kongquelv: #229453;
+    --gongdianlv: #20894d;
+    --yunshanlv: #15231b;
+    --maolv: #66c18c;
+    --bingshanlan: #a4aca7;
+    --minghui: #8a988e;
+    --minglv: #9eccab;
+    --songshuanglv: #83a78d;
+    --baiqucailv: #485b4d;
+    --langyanhui: #5d655f;
+    --wasonglv: #6e8b74;
+    --hujishenglv: #2b312c;
+    --dancuilv: #c6dfc8;
+    --yusuilv: #41b349;
+    --xianlv: #43b244;
+    --youlv: #253d24;
+    --baoshilv: #41ae3c;
+    --jialingshuilv: #add5a2;
+    --tianluolv: #5e665b;
+    --shuilv: #8cc269;
+    --yingwulv: #5bae23;
+    --aibeilv: #dfecd5;
+    --ailv: #cad3c3;
+    --niehui: #9fa39a;
+    --ganlanshilv: #b2cf87;
+    --yalv: #96c24e;
+    --nenjulv: #f0f5e5;
+    --luweilv: #b7d07a;
+    --yaohuang: #d0deaa;
+    --enyoulv: #373834;
+    --pingguolv: #bacf65;
+    --haimeilv: #e2e7bf;
+    --ganlanhuanglv: #bec936;
+    --huaihuahuanglv: #d2d97a;
+    --diehuang: #e2d849;
+    --xiangyabai: #fffef8;
+    --ganlanlv: #5e5314;
+    --xuebai: #fffef9;
+    --danhuilv: #ad9e5f;
+    --foshouhuang: #fed71a;
+    --rubai: #f9f4dc;
+    --xiangjiaohuang: #e4bf11;
+    --xinhelv: #d2b116;
+    --youcaihuahuang: #fbda41;
+    --qiukuihuang: #eed045;
+    --youhuang: #f1ca17;
+    --caohuang: #d2b42c;
+    --liuhuahuang: #f2ce2b;
+    --jianghuang: #e2c027;
+    --tanshuilv: #645822;
+    --jinguahuang: #fcd217;
+    --maiganhuang: #f8df70;
+    --haohuang: #dfc243;
+    --molihuang: #f8df72;
+    --tenghuang: #ffd111;
+    --mangguohuang: #ddc871;
+    --haishenhui: #fffefa;
+    --biluochunlv: #867018;
+    --tailv: #887322;
+    --ningmenghuang: #fcd337;
+    --caohuilv: #8e804b;
+    --xiangrikuihuang: #fecc11;
+    --suxinhuang: #fccb16;
+    --ruyahuang: #ffc90c;
+    --yuehui: #b7ae8f;
+    --kuishanhuang: #f8d86a;
+    --dadouhuang: #fbcd31;
+    --jinzhanhuang: #fcc307;
+    --juleibai: #e9ddb6;
+    --huanglianhuang: #fcc515;
+    --xingrenhuang: #f7e8aa;
+    --guhuang: #e8b004;
+    --muguahuang: #f9c116;
+    --danjianhuang: #f9d770;
+    --yalihuang: #fbc82f;
+    --yinbai: #f1f0ed;
+    --zonglvlv: #5b4913;
+    --yingwuguanhuang: #f6c430;
+    --kulv: #b78d12;
+    --qianlaohuang: #f9bd10;
+    --danmihuang: #f9d367;
+    --jiehuang: #d9a40e;
+    --zhizihuang: #ebb10d;
+    --anhaishuilv: #584717;
+    --miehuang: #f7de98;
+    --bangroubai: #f9f1db;
+    --chaomihuang: #f4ce69;
+    --hupohuang: #feba07;
+    --huilv: #8a6913;
+    --zongyelv: #876818;
+    --chenhui: #b6a476;
+    --youhuang: #fcb70a;
+    --xiangyahuang: #f0d695;
+    --jiaoqing: #87723e;
+    --douzhihuang: #f8e8c1;
+    --tuhuang: #d6a01d;
+    --xiangshuimeiguihuang: #f7da94;
+    --hupihuang: #eaad1a;
+    --jidanhuang: #fbb612;
+    --yinshuhui: #b5aa90;
+    --yudubai: #f7f4ed;
+    --chushuxinghuang: #f8bc31;
+    --shanjihuang: #b78b26;
+    --lianzibai: #e5d3aa;
+    --xiekehui: #695e45;
+    --shashihuang: #e5b751;
+    --gancaohuang: #f3bf4c;
+    --yanyuhui: #685e48;
+    --ezhanghuang: #fbb929;
+    --maiyatanghuang: #f9d27d;
+    --qiantuose: #e2c17c;
+    --bailingniaohui: #b4a992;
+    --laohuang: #f6dead;
+    --liroubai: #f2e6ce;
+    --danrouse: #f8e0b0;
+    --hetunhui: #393733;
+    --yililv: #835e1d;
+    --hanbaiyu: #f8f4ed;
+    --chengpihuang: #fca104;
+    --laiyanglihuang: #815f25;
+    --pipahuang: #fca106;
+    --jinyehuang: #ffa60f;
+    --canghuang: #806332;
+    --fenbai: #fbf2e3;
+    --danjucheng: #fba414;
+    --zhenzhuhui: #e4dfd7;
+    --guibeihuang: #826b48;
+    --qianhui: #dad4cb;
+    --qianhui: #bbb5ac;
+    --zhonghui: #bbb5ac;
+    --xionghuang: #ff9900;
+    --mihuang: #fbb957;
+    --fengfanhuang: #dc9123;
+    --guipidanzong: #c09351;
+    --jinyinghuang: #f4a83a;
+    --rouse: #f7c173;
+    --diaoyezong: #e7a23f;
+    --gutonglv: #533c1b;
+    --luoyingdanfen: #f9e8d0;
+    --ruanmuhuang: #de9e44;
+    --guarangfen: #f9cb8b;
+    --liuehuang: #f9a633;
+    --daimaohuang: #daa45a;
+    --jiaochalv: #553b18;
+    --xiekelv: #513c20;
+    --shanjihe: #986524;
+    --houmaohui: #97846c;
+    --lujiaozong: #e3bd8d;
+    --dansongyan: #4d4030;
+    --wanshoujuhuang: #fb8b05;
+    --dankehuang: #f8c387;
+    --xinghuang: #f28e16;
+    --ganlanhui: #503e2a;
+    --hehui: #4a4035;
+    --manaohui: #cfccc9;
+    --danyinhui: #c1b2a3;
+    --wahui: #867e76;
+    --yehui: #847c74;
+    --beiguahuang: #fc8c23;
+    --hehuabai: #fbecde;
+    --songshuhui: #4f4032;
+    --danmifen: #fbeee2;
+    --shenhui: #81776e;
+    --haiouhui: #9a8878;
+    --chahe: #5d3d21;
+    --tuose: #66462a;
+    --yinhui: #918072;
+    --lupihe: #d99156;
+    --binglangzong: #c1651a;
+    --xiaohui: #d4c4b7;
+    --danzhe: #be7e4a;
+    --gutonghe: #5c3719;
+    --jizong: #de7622;
+    --zuiguarou: #db8540;
+    --yanhui: #80766e;
+    --guiyuhong: #f09c5a;
+    --jucheng: #f97d1c;
+    --jinhuang: #f26b1f;
+    --meiguifen: #f8b37f;
+    --meirenjiaocheng: #fa7e23;
+    --mise: #f9e9cd;
+    --zhuwanghui: #b7a091;
+    --dankafei: #945833;
+    --hailuocheng: #f0945d;
+    --yanshizong: #964d22;
+    --mangguozong: #954416;
+    --taocihong: #e16723;
+    --boluohong: #fc7930;
+    --yujinhong: #cf7543;
+    --jinlianhuacheng: #f86b1d;
+    --huozhuanhong: #cd6227;
+    --chutaofenhong: #f6dcce;
+    --tiezong: #d85916;
+    --jieqiaodanfenhong: #f7cfba;
+    --xiekehong: #f27635;
+    --jintuo: #e46828;
+    --yanhanhong: #fc6315;
+    --dankekezong: #b7511d;
+    --chenxihong: #ea8958;
+    --yufenhong: #e8b49a;
+    --yeqiangweihong: #fb9968;
+    --ouhe: #edc3ae;
+    --changshihui: #363433;
+    --zhonghonghui: #8b614d;
+    --huonizong: #aa6a4c;
+    --ganhong: #a6522c;
+    --meijianghong: #fa5d19;
+    --dingxiangzong: #71361d;
+    --danmeiguihui: #b89485;
+    --guaranghong: #f68c60;
+    --dancanghuahong: #f6ad8f;
+    --sunpizong: #732e12;
+    --runhong: #f7cdbc;
+    --longjingyuhong: #ef632b;
+    --dantuhuang: #8c4b31;
+    --zhumuhui: #64483d;
+    --furonghong: #f9723d;
+    --luoxiahong: #cf4813;
+    --faluohong: #ee8055;
+    --caozhuhong: #f8ebe6;
+    --kafei: #753117;
+    --zhonghuituo: #603d30;
+    --yekezong: #883a1e;
+    --xiemaohong: #b14b28;
+    --dandousha: #873d24;
+    --dantaohong: #f6cec1;
+    --dantiehui: #5b423a;
+    --shibanhui: #624941;
+    --danlizong: #673424;
+    --yinzhu: #f43e06;
+    --caomeihong: #ef6f48;
+    --yangshuixianhong: #f4c7ba;
+    --zhuhong: #ed5126;
+    --liuhuahong: #f34718;
+    --shihong: #f2481b;
+    --kekezong: #652b1c;
+    --danyingsuhong: #eea08c;
+    --dahong: #f04b22;
+    --zhayezong: #692a1b;
+    --qingtinghong: #f1441d;
+    --xiangshuzong: #773d31;
+    --jiahong: #eeaa9c;
+    --taohong: #f0ada0;
+    --huoyanzong: #863020;
+    --dantengluozi: #f2e7e5;
+    --zheshi: #862617;
+    --tieshuihong: #f5391c;
+    --yanzhihong: #f03f24;
+    --jiguanghong: #f33b1f;
+    --honggonghong: #f23e23;
+    --luobohong: #f13c22;
+    --quhong: #f05a46;
+    --guqiaohong: #f17666;
+    --pingguohong: #f15642;
+    --guihong: #f25a47;
+    --fenhong: #f2b9b2;
+    --antuozong: #592620;
+    --xiyanghong: #de2a18;
+    --yingtaohong: #ed3321;
+    --shanhuhong: #f04a3a;
+    --huoshanzong: #482522;
+    --lizong: #5c1e19;
+    --hedinghong: #d42517;
+    --shehong: #f19790;
+    --exueshihong: #ab372f;
+    --jiangzong: #5a1f1b;
+    --yusaihong: #ed3b2f;
+    --lusuihui: #bdaead;
+    --lichunhong: #eb261a;
+    --fupenzihong: #ac1f18;
+    --haibaohui: #483332;
+    --dousha: #481e1c;
+    --liuzihong: #f1908c;
+    --qiuhaitanghong: #ec2b24;
+    --wuhuaguohong: #efafad;
+    --danfei: #f2cac9;
+    --meiguihui: #4b2e2b;
+    --danshuhong: #ed4845;
+    --goushuhong: #ed3333;
+    --diaozi: #5d3131;
+}
+.anyuzi-color {
+    color: var(--anyuzi)
+}
+.mudanfenhong-color {
+    color: var(--mudanfenhong)
+}
+.lizi-color {
+    color: var(--lizi)
+}
+.xiangyehong-color {
+    color: var(--xiangyehong)
+}
+.putaojiangzi-color {
+    color: var(--putaojiangzi)
+}
+.yanhong-color {
+    color: var(--yanhong)
+}
+.yuhong-color {
+    color: var(--yuhong)
+}
+.chahuahong-color {
+    color: var(--chahuahong)
+}
+.gaolianghong-color {
+    color: var(--gaolianghong)
+}
+.manjianghong-color {
+    color: var(--manjianghong)
+}
+.shubihong-color {
+    color: var(--shubihong)
+}
+.hehuanhong-color {
+    color: var(--hehuanhong)
+}
+.chunmeihong-color {
+    color: var(--chunmeihong)
+}
+.xiancaihong-color {
+    color: var(--xiancaihong)
+}
+.yanhong-color {
+    color: var(--yanhong)
+}
+.meihong-color {
+    color: var(--meihong)
+}
+.eguanhong-color {
+    color: var(--eguanhong)
+}
+.fengyehong-color {
+    color: var(--fengyehong)
+}
+.tangchangpuhong-color {
+    color: var(--tangchangpuhong)
+}
+.zaohong-color {
+    color: var(--zaohong)
+}
+.zhuganzi-color {
+    color: var(--zhuganzi)
+}
+.putaozi-color {
+    color: var(--putaozi)
+}
+.anziyuanhong-color {
+    color: var(--anziyuanhong)
+}
+.yanhong-color {
+    color: var(--yanhong)
+}
+.caomolihong-color {
+    color: var(--caomolihong)
+}
+.jiangzi-color {
+    color: var(--jiangzi)
+}
+.shanchahong-color {
+    color: var(--shanchahong)
+}
+.xinhui-color {
+    color: var(--xinhui)
+}
+.haitanghong-color {
+    color: var(--haitanghong)
+}
+.jifenhong-color {
+    color: var(--jifenhong)
+}
+.shiruihong-color {
+    color: var(--shiruihong)
+}
+.danshuhong-color {
+    color: var(--danshuhong)
+}
+.lizi-color {
+    color: var(--lizi)
+}
+.shizhuhong-color {
+    color: var(--shizhuhong)
+}
+.danqianhong-color {
+    color: var(--danqianhong)
+}
+.jinyuzi-color {
+    color: var(--jinyuzi)
+}
+.shanlidouhong-color {
+    color: var(--shanlidouhong)
+}
+.shubeihui-color {
+    color: var(--shubeihui)
+}
+.danruixianghong-color {
+    color: var(--danruixianghong)
+}
+.ganzhezi-color {
+    color: var(--ganzhezi)
+}
+.yuejihong-color {
+    color: var(--yuejihong)
+}
+.jianjingyuhong-color {
+    color: var(--jianjingyuhong)
+}
+.shuihong-color {
+    color: var(--shuihong)
+}
+.jianghong-color {
+    color: var(--jianghong)
+}
+.luhui-color {
+    color: var(--luhui)
+}
+.qiepizi-color {
+    color: var(--qiepizi)
+}
+.cangyinghui-color {
+    color: var(--cangyinghui)
+}
+.jinkuihong-color {
+    color: var(--jinkuihong)
+}
+.fentuanhuahong-color {
+    color: var(--fentuanhuahong)
+}
+.shizhuzi-color {
+    color: var(--shizhuzi)
+}
+.luanshizi-color {
+    color: var(--luanshizi)
+}
+.jinghong-color {
+    color: var(--jinghong)
+}
+.zhilanzi-color {
+    color: var(--zhilanzi)
+}
+.shaoyaogenghong-color {
+    color: var(--shaoyaogenghong)
+}
+.muyunhui-color {
+    color: var(--muyunhui)
+}
+.jiangdouhong-color {
+    color: var(--jiangdouhong)
+}
+.baochunhong-color {
+    color: var(--baochunhong)
+}
+.danjianghong-color {
+    color: var(--danjianghong)
+}
+.fengxianhuahong-color {
+    color: var(--fengxianhuahong)
+}
+.xiaguanghong-color {
+    color: var(--xiaguanghong)
+}
+.xidanhong-color {
+    color: var(--xidanhong)
+}
+.jiazhutaohong-color {
+    color: var(--jiazhutaohong)
+}
+.songyemudanhong-color {
+    color: var(--songyemudanhong)
+}
+.lianbanhong-color {
+    color: var(--lianbanhong)
+}
+.baijihong-color {
+    color: var(--baijihong)
+}
+.yinhonghui-color {
+    color: var(--yinhonghui)
+}
+.wenpohong-color {
+    color: var(--wenpohong)
+}
+.cujiangcaohong-color {
+    color: var(--cujiangcaohong)
+}
+.huoezi-color {
+    color: var(--huoezi)
+}
+.yaoguanzi-color {
+    color: var(--yaoguanzi)
+}
+.pinhong-color {
+    color: var(--pinhong)
+}
+.moshizi-color {
+    color: var(--moshizi)
+}
+.mozi-color {
+    color: var(--mozi)
+}
+.tanzi-color {
+    color: var(--tanzi)
+}
+.chuhehong-color {
+    color: var(--chuhehong)
+}
+.caitouzi-color {
+    color: var(--caitouzi)
+}
+.putaojiuhong-color {
+    color: var(--putaojiuhong)
+}
+.danqingzi-color {
+    color: var(--danqingzi)
+}
+.bogenhong-color {
+    color: var(--bogenhong)
+}
+.haixiangzi-color {
+    color: var(--haixiangzi)
+}
+.tuyanhong-color {
+    color: var(--tuyanhong)
+}
+.nenlinghong-color {
+    color: var(--nenlinghong)
+}
+.yangcongzi-color {
+    color: var(--yangcongzi)
+}
+.diaozhonghuahong-color {
+    color: var(--diaozhonghuahong)
+}
+.ganzi-color {
+    color: var(--ganzi)
+}
+.zijinghong-color {
+    color: var(--zijinghong)
+}
+.biandouhuahong-color {
+    color: var(--biandouhuahong)
+}
+.mabiancaozi-color {
+    color: var(--mabiancaozi)
+}
+.canghuahong-color {
+    color: var(--canghuahong)
+}
+.banjiuhui-color {
+    color: var(--banjiuhui)
+}
+.gutongzi-color {
+    color: var(--gutongzi)
+}
+.danzihong-color {
+    color: var(--danzihong)
+}
+.dingxiangdanzi-color {
+    color: var(--dingxiangdanzi)
+}
+.meiguihong-color {
+    color: var(--meiguihong)
+}
+.gudinghui-color {
+    color: var(--gudinghui)
+}
+.lingmenghong-color {
+    color: var(--lingmenghong)
+}
+.yingcaozi-color {
+    color: var(--yingcaozi)
+}
+.longxuhong-color {
+    color: var(--longxuhong)
+}
+.dianqishihong-color {
+    color: var(--dianqishihong)
+}
+.meiguizi-color {
+    color: var(--meiguizi)
+}
+.xiancaizi-color {
+    color: var(--xiancaizi)
+}
+.zihui-color {
+    color: var(--zihui)
+}
+.longjingyuzi-color {
+    color: var(--longjingyuzi)
+}
+.qinghakezi-color {
+    color: var(--qinghakezi)
+}
+.luolanzi-color {
+    color: var(--luolanzi)
+}
+.biqizi-color {
+    color: var(--biqizi)
+}
+.doukouzi-color {
+    color: var(--doukouzi)
+}
+.biandouzi-color {
+    color: var(--biandouzi)
+}
+.qianniuzi-color {
+    color: var(--qianniuzi)
+}
+.zizi-color {
+    color: var(--zizi)
+}
+.gejinzi-color {
+    color: var(--gejinzi)
+}
+.qinglian-color {
+    color: var(--qinglian)
+}
+.jiehuazi-color {
+    color: var(--jiehuazi)
+}
+.fengxinzi-color {
+    color: var(--fengxinzi)
+}
+.shenqianniuzi-color {
+    color: var(--shenqianniuzi)
+}
+.weizi-color {
+    color: var(--weizi)
+}
+.wumeizi-color {
+    color: var(--wumeizi)
+}
+.jiegengzi-color {
+    color: var(--jiegengzi)
+}
+.danqianniuzi-color {
+    color: var(--danqianniuzi)
+}
+.jianfengzi-color {
+    color: var(--jianfengzi)
+}
+.xunzi-color {
+    color: var(--xunzi)
+}
+.jinzi-color {
+    color: var(--jinzi)
+}
+.qianshibai-color {
+    color: var(--qianshibai)
+}
+.longkuizi-color {
+    color: var(--longkuizi)
+}
+.tengluozi-color {
+    color: var(--tengluozi)
+}
+.shayuhui-color {
+    color: var(--shayuhui)
+}
+.anlongdanzi-color {
+    color: var(--anlongdanzi)
+}
+.anlanzi-color {
+    color: var(--anlanzi)
+}
+.yeputaozi-color {
+    color: var(--yeputaozi)
+}
+.yejuzi-color {
+    color: var(--yejuzi)
+}
+.shuiniuhui-color {
+    color: var(--shuiniuhui)
+}
+.yuanshanzi-color {
+    color: var(--yuanshanzi)
+}
+.luodianzi-color {
+    color: var(--luodianzi)
+}
+.jingshizi-color {
+    color: var(--jingshizi)
+}
+.mantianxingzi-color {
+    color: var(--mantianxingzi)
+}
+.danlanzi-color {
+    color: var(--danlanzi)
+}
+.shangengzi-color {
+    color: var(--shangengzi)
+}
+.niujiaohui-color {
+    color: var(--niujiaohui)
+}
+.yuweihui-color {
+    color: var(--yuweihui)
+}
+.waguanhui-color {
+    color: var(--waguanhui)
+}
+.ganglan-color {
+    color: var(--ganglan)
+}
+.yanhanlan-color {
+    color: var(--yanhanlan)
+}
+.jingyuhui-color {
+    color: var(--jingyuhui)
+}
+.qinghui-color {
+    color: var(--qinghui)
+}
+.gelan-color {
+    color: var(--gelan)
+}
+.anlan-color {
+    color: var(--anlan)
+}
+.gangqing-color {
+    color: var(--gangqing)
+}
+.haitaolan-color {
+    color: var(--haitaolan)
+}
+.feiyancaolan-color {
+    color: var(--feiyancaolan)
+}
+.dianqing-color {
+    color: var(--dianqing)
+}
+.ananlan-color {
+    color: var(--ananlan)
+}
+.haijunlan-color {
+    color: var(--haijunlan)
+}
+.jingtailan-color {
+    color: var(--jingtailan)
+}
+.pinlan-color {
+    color: var(--pinlan)
+}
+.niluolan-color {
+    color: var(--niluolan)
+}
+.diechilan-color {
+    color: var(--diechilan)
+}
+.huaqing-color {
+    color: var(--huaqing)
+}
+.yanlan-color {
+    color: var(--yanlan)
+}
+.xinglan-color {
+    color: var(--xinglan)
+}
+.honglan-color {
+    color: var(--honglan)
+}
+.bolinlan-color {
+    color: var(--bolinlan)
+}
+.qunqing-color {
+    color: var(--qunqing)
+}
+.yunshuilan-color {
+    color: var(--yunshuilan)
+}
+.yushandoulan-color {
+    color: var(--yushandoulan)
+}
+.zhanjianhui-color {
+    color: var(--zhanjianhui)
+}
+.qingshanlan-color {
+    color: var(--qingshanlan)
+}
+.jinglan-color {
+    color: var(--jinglan)
+}
+.tangcilan-color {
+    color: var(--tangcilan)
+}
+.chaolan-color {
+    color: var(--chaolan)
+}
+.tianlan-color {
+    color: var(--tianlan)
+}
+.dalishihui-color {
+    color: var(--dalishihui)
+}
+.qianniuhualan-color {
+    color: var(--qianniuhualan)
+}
+.baoshilan-color {
+    color: var(--baoshilan)
+}
+.danlanhui-color {
+    color: var(--danlanhui)
+}
+.nenhui-color {
+    color: var(--nenhui)
+}
+.yinyubai-color {
+    color: var(--yinyubai)
+}
+.youlan-color {
+    color: var(--youlan)
+}
+.jianshilan-color {
+    color: var(--jianshilan)
+}
+.yuantianlan-color {
+    color: var(--yuantianlan)
+}
+.yunshanlan-color {
+    color: var(--yunshanlan)
+}
+.qiubolan-color {
+    color: var(--qiubolan)
+}
+.jingtianlan-color {
+    color: var(--jingtianlan)
+}
+.yuanweilan-color {
+    color: var(--yuanweilan)
+}
+.yunfengbai-color {
+    color: var(--yunfengbai)
+}
+.xinghui-color {
+    color: var(--xinghui)
+}
+.gulan-color {
+    color: var(--gulan)
+}
+.biqing-color {
+    color: var(--biqing)
+}
+.canglan-color {
+    color: var(--canglan)
+}
+.shenhuilan-color {
+    color: var(--shenhuilan)
+}
+.huilan-color {
+    color: var(--huilan)
+}
+.hushuilan-color {
+    color: var(--hushuilan)
+}
+.haiqing-color {
+    color: var(--haiqing)
+}
+.huanghunhui-color {
+    color: var(--huanghunhui)
+}
+.jiqing-color {
+    color: var(--jiqing)
+}
+.yuqinlan-color {
+    color: var(--yuqinlan)
+}
+.danfanlan-color {
+    color: var(--danfanlan)
+}
+.jianniaolan-color {
+    color: var(--jianniaolan)
+}
+.oulan-color {
+    color: var(--oulan)
+}
+.cuilan-color {
+    color: var(--cuilan)
+}
+.qingtinglan-color {
+    color: var(--qingtinglan)
+}
+.kongquelan-color {
+    color: var(--kongquelan)
+}
+.weilan-color {
+    color: var(--weilan)
+}
+.pubulan-color {
+    color: var(--pubulan)
+}
+.shanlan-color {
+    color: var(--shanlan)
+}
+.dianzilan-color {
+    color: var(--dianzilan)
+}
+.wanbolan-color {
+    color: var(--wanbolan)
+}
+.qingshuilan-color {
+    color: var(--qingshuilan)
+}
+.xiayunhui-color {
+    color: var(--xiayunhui)
+}
+.haitianlan-color {
+    color: var(--haitianlan)
+}
+.xiakeqing-color {
+    color: var(--xiakeqing)
+}
+.shilv-color {
+    color: var(--shilv)
+}
+.qionghui-color {
+    color: var(--qionghui)
+}
+.meidielv-color {
+    color: var(--meidielv)
+}
+.ehui-color {
+    color: var(--ehui)
+}
+.lanlv-color {
+    color: var(--lanlv)
+}
+.zhulv-color {
+    color: var(--zhulv)
+}
+.yadinglv-color {
+    color: var(--yadinglv)
+}
+.yueyingbai-color {
+    color: var(--yueyingbai)
+}
+.haiwanglv-color {
+    color: var(--haiwanglv)
+}
+.shenhailv-color {
+    color: var(--shenhailv)
+}
+.lvhui-color {
+    color: var(--lvhui)
+}
+.qingfanlv-color {
+    color: var(--qingfanlv)
+}
+.canglv-color {
+    color: var(--canglv)
+}
+.feiquanlv-color {
+    color: var(--feiquanlv)
+}
+.mangconglv-color {
+    color: var(--mangconglv)
+}
+.wuzhilv-color {
+    color: var(--wuzhilv)
+}
+.tonglv-color {
+    color: var(--tonglv)
+}
+.caoyuanyuanlv-color {
+    color: var(--caoyuanyuanlv)
+}
+.walv-color {
+    color: var(--walv)
+}
+.langhualv-color {
+    color: var(--langhualv)
+}
+.ganlanlv-color {
+    color: var(--ganlanlv)
+}
+.fenlv-color {
+    color: var(--fenlv)
+}
+.danlvhui-color {
+    color: var(--danlvhui)
+}
+.maimiaolv-color {
+    color: var(--maimiaolv)
+}
+.cuilv-color {
+    color: var(--cuilv)
+}
+.conglv-color {
+    color: var(--conglv)
+}
+.heyelv-color {
+    color: var(--heyelv)
+}
+.danlv-color {
+    color: var(--danlv)
+}
+.tianyuanlv-color {
+    color: var(--tianyuanlv)
+}
+.yuzanlv-color {
+    color: var(--yuzanlv)
+}
+.chanlv-color {
+    color: var(--chanlv)
+}
+.koushaolv-color {
+    color: var(--koushaolv)
+}
+.bohelv-color {
+    color: var(--bohelv)
+}
+.yuebai-color {
+    color: var(--yuebai)
+}
+.danbaishilv-color {
+    color: var(--danbaishilv)
+}
+.zhuhuanglv-color {
+    color: var(--zhuhuanglv)
+}
+.kongquelv-color {
+    color: var(--kongquelv)
+}
+.gongdianlv-color {
+    color: var(--gongdianlv)
+}
+.yunshanlv-color {
+    color: var(--yunshanlv)
+}
+.maolv-color {
+    color: var(--maolv)
+}
+.bingshanlan-color {
+    color: var(--bingshanlan)
+}
+.minghui-color {
+    color: var(--minghui)
+}
+.minglv-color {
+    color: var(--minglv)
+}
+.songshuanglv-color {
+    color: var(--songshuanglv)
+}
+.baiqucailv-color {
+    color: var(--baiqucailv)
+}
+.langyanhui-color {
+    color: var(--langyanhui)
+}
+.wasonglv-color {
+    color: var(--wasonglv)
+}
+.hujishenglv-color {
+    color: var(--hujishenglv)
+}
+.dancuilv-color {
+    color: var(--dancuilv)
+}
+.yusuilv-color {
+    color: var(--yusuilv)
+}
+.xianlv-color {
+    color: var(--xianlv)
+}
+.youlv-color {
+    color: var(--youlv)
+}
+.baoshilv-color {
+    color: var(--baoshilv)
+}
+.jialingshuilv-color {
+    color: var(--jialingshuilv)
+}
+.tianluolv-color {
+    color: var(--tianluolv)
+}
+.shuilv-color {
+    color: var(--shuilv)
+}
+.yingwulv-color {
+    color: var(--yingwulv)
+}
+.aibeilv-color {
+    color: var(--aibeilv)
+}
+.ailv-color {
+    color: var(--ailv)
+}
+.niehui-color {
+    color: var(--niehui)
+}
+.ganlanshilv-color {
+    color: var(--ganlanshilv)
+}
+.yalv-color {
+    color: var(--yalv)
+}
+.nenjulv-color {
+    color: var(--nenjulv)
+}
+.luweilv-color {
+    color: var(--luweilv)
+}
+.yaohuang-color {
+    color: var(--yaohuang)
+}
+.enyoulv-color {
+    color: var(--enyoulv)
+}
+.pingguolv-color {
+    color: var(--pingguolv)
+}
+.haimeilv-color {
+    color: var(--haimeilv)
+}
+.ganlanhuanglv-color {
+    color: var(--ganlanhuanglv)
+}
+.huaihuahuanglv-color {
+    color: var(--huaihuahuanglv)
+}
+.diehuang-color {
+    color: var(--diehuang)
+}
+.xiangyabai-color {
+    color: var(--xiangyabai)
+}
+.ganlanlv-color {
+    color: var(--ganlanlv)
+}
+.xuebai-color {
+    color: var(--xuebai)
+}
+.danhuilv-color {
+    color: var(--danhuilv)
+}
+.foshouhuang-color {
+    color: var(--foshouhuang)
+}
+.rubai-color {
+    color: var(--rubai)
+}
+.xiangjiaohuang-color {
+    color: var(--xiangjiaohuang)
+}
+.xinhelv-color {
+    color: var(--xinhelv)
+}
+.youcaihuahuang-color {
+    color: var(--youcaihuahuang)
+}
+.qiukuihuang-color {
+    color: var(--qiukuihuang)
+}
+.youhuang-color {
+    color: var(--youhuang)
+}
+.caohuang-color {
+    color: var(--caohuang)
+}
+.liuhuahuang-color {
+    color: var(--liuhuahuang)
+}
+.jianghuang-color {
+    color: var(--jianghuang)
+}
+.tanshuilv-color {
+    color: var(--tanshuilv)
+}
+.jinguahuang-color {
+    color: var(--jinguahuang)
+}
+.maiganhuang-color {
+    color: var(--maiganhuang)
+}
+.haohuang-color {
+    color: var(--haohuang)
+}
+.molihuang-color {
+    color: var(--molihuang)
+}
+.tenghuang-color {
+    color: var(--tenghuang)
+}
+.mangguohuang-color {
+    color: var(--mangguohuang)
+}
+.haishenhui-color {
+    color: var(--haishenhui)
+}
+.biluochunlv-color {
+    color: var(--biluochunlv)
+}
+.tailv-color {
+    color: var(--tailv)
+}
+.ningmenghuang-color {
+    color: var(--ningmenghuang)
+}
+.caohuilv-color {
+    color: var(--caohuilv)
+}
+.xiangrikuihuang-color {
+    color: var(--xiangrikuihuang)
+}
+.suxinhuang-color {
+    color: var(--suxinhuang)
+}
+.ruyahuang-color {
+    color: var(--ruyahuang)
+}
+.yuehui-color {
+    color: var(--yuehui)
+}
+.kuishanhuang-color {
+    color: var(--kuishanhuang)
+}
+.dadouhuang-color {
+    color: var(--dadouhuang)
+}
+.jinzhanhuang-color {
+    color: var(--jinzhanhuang)
+}
+.juleibai-color {
+    color: var(--juleibai)
+}
+.huanglianhuang-color {
+    color: var(--huanglianhuang)
+}
+.xingrenhuang-color {
+    color: var(--xingrenhuang)
+}
+.guhuang-color {
+    color: var(--guhuang)
+}
+.muguahuang-color {
+    color: var(--muguahuang)
+}
+.danjianhuang-color {
+    color: var(--danjianhuang)
+}
+.yalihuang-color {
+    color: var(--yalihuang)
+}
+.yinbai-color {
+    color: var(--yinbai)
+}
+.zonglvlv-color {
+    color: var(--zonglvlv)
+}
+.yingwuguanhuang-color {
+    color: var(--yingwuguanhuang)
+}
+.kulv-color {
+    color: var(--kulv)
+}
+.qianlaohuang-color {
+    color: var(--qianlaohuang)
+}
+.danmihuang-color {
+    color: var(--danmihuang)
+}
+.jiehuang-color {
+    color: var(--jiehuang)
+}
+.zhizihuang-color {
+    color: var(--zhizihuang)
+}
+.anhaishuilv-color {
+    color: var(--anhaishuilv)
+}
+.miehuang-color {
+    color: var(--miehuang)
+}
+.bangroubai-color {
+    color: var(--bangroubai)
+}
+.chaomihuang-color {
+    color: var(--chaomihuang)
+}
+.hupohuang-color {
+    color: var(--hupohuang)
+}
+.huilv-color {
+    color: var(--huilv)
+}
+.zongyelv-color {
+    color: var(--zongyelv)
+}
+.chenhui-color {
+    color: var(--chenhui)
+}
+.youhuang-color {
+    color: var(--youhuang)
+}
+.xiangyahuang-color {
+    color: var(--xiangyahuang)
+}
+.jiaoqing-color {
+    color: var(--jiaoqing)
+}
+.douzhihuang-color {
+    color: var(--douzhihuang)
+}
+.tuhuang-color {
+    color: var(--tuhuang)
+}
+.xiangshuimeiguihuang-color {
+    color: var(--xiangshuimeiguihuang)
+}
+.hupihuang-color {
+    color: var(--hupihuang)
+}
+.jidanhuang-color {
+    color: var(--jidanhuang)
+}
+.yinshuhui-color {
+    color: var(--yinshuhui)
+}
+.yudubai-color {
+    color: var(--yudubai)
+}
+.chushuxinghuang-color {
+    color: var(--chushuxinghuang)
+}
+.shanjihuang-color {
+    color: var(--shanjihuang)
+}
+.lianzibai-color {
+    color: var(--lianzibai)
+}
+.xiekehui-color {
+    color: var(--xiekehui)
+}
+.shashihuang-color {
+    color: var(--shashihuang)
+}
+.gancaohuang-color {
+    color: var(--gancaohuang)
+}
+.yanyuhui-color {
+    color: var(--yanyuhui)
+}
+.ezhanghuang-color {
+    color: var(--ezhanghuang)
+}
+.maiyatanghuang-color {
+    color: var(--maiyatanghuang)
+}
+.qiantuose-color {
+    color: var(--qiantuose)
+}
+.bailingniaohui-color {
+    color: var(--bailingniaohui)
+}
+.laohuang-color {
+    color: var(--laohuang)
+}
+.liroubai-color {
+    color: var(--liroubai)
+}
+.danrouse-color {
+    color: var(--danrouse)
+}
+.hetunhui-color {
+    color: var(--hetunhui)
+}
+.yililv-color {
+    color: var(--yililv)
+}
+.hanbaiyu-color {
+    color: var(--hanbaiyu)
+}
+.chengpihuang-color {
+    color: var(--chengpihuang)
+}
+.laiyanglihuang-color {
+    color: var(--laiyanglihuang)
+}
+.pipahuang-color {
+    color: var(--pipahuang)
+}
+.jinyehuang-color {
+    color: var(--jinyehuang)
+}
+.canghuang-color {
+    color: var(--canghuang)
+}
+.fenbai-color {
+    color: var(--fenbai)
+}
+.danjucheng-color {
+    color: var(--danjucheng)
+}
+.zhenzhuhui-color {
+    color: var(--zhenzhuhui)
+}
+.guibeihuang-color {
+    color: var(--guibeihuang)
+}
+.qianhui-color {
+    color: var(--qianhui)
+}
+.zhonghui-color {
+    color: var(--zhonghui)
+}
+.xionghuang-color {
+    color: var(--xionghuang)
+}
+.mihuang-color {
+    color: var(--mihuang)
+}
+.fengfanhuang-color {
+    color: var(--fengfanhuang)
+}
+.guipidanzong-color {
+    color: var(--guipidanzong)
+}
+.jinyinghuang-color {
+    color: var(--jinyinghuang)
+}
+.rouse-color {
+    color: var(--rouse)
+}
+.diaoyezong-color {
+    color: var(--diaoyezong)
+}
+.gutonglv-color {
+    color: var(--gutonglv)
+}
+.luoyingdanfen-color {
+    color: var(--luoyingdanfen)
+}
+.ruanmuhuang-color {
+    color: var(--ruanmuhuang)
+}
+.guarangfen-color {
+    color: var(--guarangfen)
+}
+.liuehuang-color {
+    color: var(--liuehuang)
+}
+.daimaohuang-color {
+    color: var(--daimaohuang)
+}
+.jiaochalv-color {
+    color: var(--jiaochalv)
+}
+.xiekelv-color {
+    color: var(--xiekelv)
+}
+.shanjihe-color {
+    color: var(--shanjihe)
+}
+.houmaohui-color {
+    color: var(--houmaohui)
+}
+.lujiaozong-color {
+    color: var(--lujiaozong)
+}
+.dansongyan-color {
+    color: var(--dansongyan)
+}
+.wanshoujuhuang-color {
+    color: var(--wanshoujuhuang)
+}
+.dankehuang-color {
+    color: var(--dankehuang)
+}
+.xinghuang-color {
+    color: var(--xinghuang)
+}
+.ganlanhui-color {
+    color: var(--ganlanhui)
+}
+.hehui-color {
+    color: var(--hehui)
+}
+.manaohui-color {
+    color: var(--manaohui)
+}
+.danyinhui-color {
+    color: var(--danyinhui)
+}
+.wahui-color {
+    color: var(--wahui)
+}
+.yehui-color {
+    color: var(--yehui)
+}
+.beiguahuang-color {
+    color: var(--beiguahuang)
+}
+.hehuabai-color {
+    color: var(--hehuabai)
+}
+.songshuhui-color {
+    color: var(--songshuhui)
+}
+.danmifen-color {
+    color: var(--danmifen)
+}
+.shenhui-color {
+    color: var(--shenhui)
+}
+.haiouhui-color {
+    color: var(--haiouhui)
+}
+.chahe-color {
+    color: var(--chahe)
+}
+.tuose-color {
+    color: var(--tuose)
+}
+.yinhui-color {
+    color: var(--yinhui)
+}
+.lupihe-color {
+    color: var(--lupihe)
+}
+.binglangzong-color {
+    color: var(--binglangzong)
+}
+.xiaohui-color {
+    color: var(--xiaohui)
+}
+.danzhe-color {
+    color: var(--danzhe)
+}
+.gutonghe-color {
+    color: var(--gutonghe)
+}
+.jizong-color {
+    color: var(--jizong)
+}
+.zuiguarou-color {
+    color: var(--zuiguarou)
+}
+.yanhui-color {
+    color: var(--yanhui)
+}
+.guiyuhong-color {
+    color: var(--guiyuhong)
+}
+.jucheng-color {
+    color: var(--jucheng)
+}
+.jinhuang-color {
+    color: var(--jinhuang)
+}
+.meiguifen-color {
+    color: var(--meiguifen)
+}
+.meirenjiaocheng-color {
+    color: var(--meirenjiaocheng)
+}
+.mise-color {
+    color: var(--mise)
+}
+.zhuwanghui-color {
+    color: var(--zhuwanghui)
+}
+.dankafei-color {
+    color: var(--dankafei)
+}
+.hailuocheng-color {
+    color: var(--hailuocheng)
+}
+.yanshizong-color {
+    color: var(--yanshizong)
+}
+.mangguozong-color {
+    color: var(--mangguozong)
+}
+.taocihong-color {
+    color: var(--taocihong)
+}
+.boluohong-color {
+    color: var(--boluohong)
+}
+.yujinhong-color {
+    color: var(--yujinhong)
+}
+.jinlianhuacheng-color {
+    color: var(--jinlianhuacheng)
+}
+.huozhuanhong-color {
+    color: var(--huozhuanhong)
+}
+.chutaofenhong-color {
+    color: var(--chutaofenhong)
+}
+.tiezong-color {
+    color: var(--tiezong)
+}
+.jieqiaodanfenhong-color {
+    color: var(--jieqiaodanfenhong)
+}
+.xiekehong-color {
+    color: var(--xiekehong)
+}
+.jintuo-color {
+    color: var(--jintuo)
+}
+.yanhanhong-color {
+    color: var(--yanhanhong)
+}
+.dankekezong-color {
+    color: var(--dankekezong)
+}
+.chenxihong-color {
+    color: var(--chenxihong)
+}
+.yufenhong-color {
+    color: var(--yufenhong)
+}
+.yeqiangweihong-color {
+    color: var(--yeqiangweihong)
+}
+.ouhe-color {
+    color: var(--ouhe)
+}
+.changshihui-color {
+    color: var(--changshihui)
+}
+.zhonghonghui-color {
+    color: var(--zhonghonghui)
+}
+.huonizong-color {
+    color: var(--huonizong)
+}
+.ganhong-color {
+    color: var(--ganhong)
+}
+.meijianghong-color {
+    color: var(--meijianghong)
+}
+.dingxiangzong-color {
+    color: var(--dingxiangzong)
+}
+.danmeiguihui-color {
+    color: var(--danmeiguihui)
+}
+.guaranghong-color {
+    color: var(--guaranghong)
+}
+.dancanghuahong-color {
+    color: var(--dancanghuahong)
+}
+.sunpizong-color {
+    color: var(--sunpizong)
+}
+.runhong-color {
+    color: var(--runhong)
+}
+.longjingyuhong-color {
+    color: var(--longjingyuhong)
+}
+.dantuhuang-color {
+    color: var(--dantuhuang)
+}
+.zhumuhui-color {
+    color: var(--zhumuhui)
+}
+.furonghong-color {
+    color: var(--furonghong)
+}
+.luoxiahong-color {
+    color: var(--luoxiahong)
+}
+.faluohong-color {
+    color: var(--faluohong)
+}
+.caozhuhong-color {
+    color: var(--caozhuhong)
+}
+.kafei-color {
+    color: var(--kafei)
+}
+.zhonghuituo-color {
+    color: var(--zhonghuituo)
+}
+.yekezong-color {
+    color: var(--yekezong)
+}
+.xiemaohong-color {
+    color: var(--xiemaohong)
+}
+.dandousha-color {
+    color: var(--dandousha)
+}
+.dantaohong-color {
+    color: var(--dantaohong)
+}
+.dantiehui-color {
+    color: var(--dantiehui)
+}
+.shibanhui-color {
+    color: var(--shibanhui)
+}
+.danlizong-color {
+    color: var(--danlizong)
+}
+.yinzhu-color {
+    color: var(--yinzhu)
+}
+.caomeihong-color {
+    color: var(--caomeihong)
+}
+.yangshuixianhong-color {
+    color: var(--yangshuixianhong)
+}
+.zhuhong-color {
+    color: var(--zhuhong)
+}
+.liuhuahong-color {
+    color: var(--liuhuahong)
+}
+.shihong-color {
+    color: var(--shihong)
+}
+.kekezong-color {
+    color: var(--kekezong)
+}
+.danyingsuhong-color {
+    color: var(--danyingsuhong)
+}
+.dahong-color {
+    color: var(--dahong)
+}
+.zhayezong-color {
+    color: var(--zhayezong)
+}
+.qingtinghong-color {
+    color: var(--qingtinghong)
+}
+.xiangshuzong-color {
+    color: var(--xiangshuzong)
+}
+.jiahong-color {
+    color: var(--jiahong)
+}
+.taohong-color {
+    color: var(--taohong)
+}
+.huoyanzong-color {
+    color: var(--huoyanzong)
+}
+.dantengluozi-color {
+    color: var(--dantengluozi)
+}
+.zheshi-color {
+    color: var(--zheshi)
+}
+.tieshuihong-color {
+    color: var(--tieshuihong)
+}
+.yanzhihong-color {
+    color: var(--yanzhihong)
+}
+.jiguanghong-color {
+    color: var(--jiguanghong)
+}
+.honggonghong-color {
+    color: var(--honggonghong)
+}
+.luobohong-color {
+    color: var(--luobohong)
+}
+.quhong-color {
+    color: var(--quhong)
+}
+.guqiaohong-color {
+    color: var(--guqiaohong)
+}
+.pingguohong-color {
+    color: var(--pingguohong)
+}
+.guihong-color {
+    color: var(--guihong)
+}
+.fenhong-color {
+    color: var(--fenhong)
+}
+.antuozong-color {
+    color: var(--antuozong)
+}
+.xiyanghong-color {
+    color: var(--xiyanghong)
+}
+.yingtaohong-color {
+    color: var(--yingtaohong)
+}
+.shanhuhong-color {
+    color: var(--shanhuhong)
+}
+.huoshanzong-color {
+    color: var(--huoshanzong)
+}
+.lizong-color {
+    color: var(--lizong)
+}
+.hedinghong-color {
+    color: var(--hedinghong)
+}
+.shehong-color {
+    color: var(--shehong)
+}
+.exueshihong-color {
+    color: var(--exueshihong)
+}
+.jiangzong-color {
+    color: var(--jiangzong)
+}
+.yusaihong-color {
+    color: var(--yusaihong)
+}
+.lusuihui-color {
+    color: var(--lusuihui)
+}
+.lichunhong-color {
+    color: var(--lichunhong)
+}
+.fupenzihong-color {
+    color: var(--fupenzihong)
+}
+.haibaohui-color {
+    color: var(--haibaohui)
+}
+.dousha-color {
+    color: var(--dousha)
+}
+.liuzihong-color {
+    color: var(--liuzihong)
+}
+.qiuhaitanghong-color {
+    color: var(--qiuhaitanghong)
+}
+.wuhuaguohong-color {
+    color: var(--wuhuaguohong)
+}
+.danfei-color {
+    color: var(--danfei)
+}
+.meiguihui-color {
+    color: var(--meiguihui)
+}
+.danshuhong-color {
+    color: var(--danshuhong)
+}
+.goushuhong-color {
+    color: var(--goushuhong)
+}
+.diaozi-color {
+    color: var(--diaozi)
+}

@@ -1,0 +1,376 @@
+/*
+* @Author: Jingyuexing
+* @Date:   2018-12-29 22:47:40
+* @Last Modified by:   admin
+* @Last Modified time: 2022-05-05 19:10:29
+*/
+body{
+    width:100%;
+    height:100%;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+.grayscale{
+    filter: grayscale(1);
+}
+.demo-card-wide.mdl-card {
+  width:80%;
+}
+.demo-card-wide > .mdl-card__title {
+  height: 176px;
+  background:center / cover;
+}
+
+
+main.mdl-layout__content{
+    /* background:url("../img/winterBg.jpg"); */
+    background-size:cover !important;
+}
+.card{
+    padding:4px;
+    margin:12px auto;
+    border-radius:4px;
+    box-shadow:1px 1px 3px #ccc;
+    border:1px solid #ccc;
+}
+.mdl-card{
+    margin:6px auto;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.icon:hover,.material-icons:hover{
+    cursor: default;
+}
+.card:empty{
+    display:none;
+}
+.head-nav{
+    display:flex;
+    width:100%;
+    height:50px;
+}
+.head-nav>.nav-link{
+    float:right;
+}
+.link-text{
+    padding:4px;
+}
+.main{
+    width:80%;
+    margin:0 auto;
+}
+.card .card{
+    display:inline-block;
+}
+/* .layout-nav{
+} */
+.risk{
+    background-color:#45ae20c7 !important;
+}
+div.icon,i.icon{
+    margin-right:12px;
+}
+.page-content,.content{
+    margin-top:60px;
+    width:80%;
+    margin:0 auto;
+}
+
+.mdl-layout__drawer .mdl-navigation__link>.icon{
+    font-size:1.8em;
+    display:inline-block;
+}
+.card>.card-title{
+    padding:5px;
+    font-size:1.4em;
+    font-weight:bold;
+}
+.card>.card-content{
+    border-top:1px solid #a4d3ee;
+    height:60px;
+    padding:4px;
+}
+.card>.card-content,.card>.footer{
+    display:flex;
+}
+
+.card>.card-card-content>.img{
+    background-color:#c2c2c2;
+    border-radius:4px;
+    float:right;
+    width:20%;
+    height:100%;
+}
+.card>.footer{
+    border-top:1px solid #a4d3ee;
+    width:100%;
+    height:40px;
+}
+.mdl-card__actions.mdl-card--border{
+    display:flex;
+}
+.me{
+    text-align:center;
+}
+.tag{
+    user-select:none;
+    display:inline-block;
+    border-radius:1rem;
+    padding:4px 10px;
+    text-align:center;
+    margin:1px 4px;
+    transition:all .4s ease-in-out;
+}
+.tag:hover{
+    transform: scale(1.1);
+}
+.navbar{
+    width:200px;
+    height:40px;
+    padding:5px;
+    top:45%;
+    display:flex;
+    line-height:40px;
+    left:0px;
+    z-index:2;
+    user-select:none;
+    cursor: pointer;
+    display:inline-block;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-right:10px;
+    box-shadow:4px 5px 18px #0000004d;
+    border-radius:0rem 2rem 2rem 0rem;
+    position: relative;
+    background:#2a80ca;
+    opacity:0.5;
+    margin-left:-145px;
+    transition:all .4s ease-in-out;
+}
+.backBtn{
+    border-radius:50%;
+}
+.navbar:hover{
+    opacity:1;
+    margin-left:0px;
+}
+.navbar>.navbar-text{
+    width:60%;
+    height:100%;
+    color:#fff;
+    font-size:1.4em;
+    display:inline-block;
+}
+.navbar::after{
+    content:">>>";
+    font-size:1.8em;
+    color:#fff;
+    float:right;
+    transition:all 0.5s ease-in-out;
+}
+.navbar:hover::after{
+    content:"<<<";
+}
+.capsule{
+    width:80%;
+    height:60px;
+    display: flex;
+    margin: 12px auto;
+    backdrop-filter: blur(1mm);
+    border-radius:60px;
+    padding: 4px 4px;
+    background-color: rgba(239, 239, 239, 0.45);
+    transition: all .4s ease-in-out;
+}
+
+.icon{
+    text-align: center;
+    font-size:1.5em;
+}
+.capsule>.icon{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius:50%;
+    background-color:#fff;
+}
+.capsule .title{
+    margin-left:40px;
+    line-height:60px;
+    font-size:1.9em;
+    font-weight: bold;
+}
+.capsule .title>a{
+    color:#000;
+    display: block;
+    text-decoration: none;
+    transition: color .4s ease-in-out;
+}
+
+.capsule .tag{
+    position: relative;
+    margin-top: 16px;
+    display: inline-block;
+    height: 30px;
+    padding: 0 12px;
+    font-size: 14px;
+    line-height: 30px;
+    vertical-align: top;
+    border-radius: 100px;
+}
+
+.empty{
+    display: none;
+}
+/* Course start */
+
+
+.Course>.timelist{
+    margin:0 auto;
+    display: flex;
+    height: 40px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px 1px 10px #323232;
+} 
+
+.timelist .timeitem,.timelist .timeclock{
+    width: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.5rem;
+}
+.Course>.now{
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+}
+.now>div{
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+}
+.Course .mdl-card__title{
+    color: #4876f2;
+}
+.Course .mdl-list__item-avatar{
+    color:#fff;
+    background-color:#0084ff;
+}
+.Course .header-text{
+    font-size: 1.6rem;
+}
+.Course .mdl-card{
+    width: 51%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+/* Course end */
+
+
+.chinese{
+    position: fixed;
+    top: 50%;
+    right: 31px;
+}
+.chineseNewYear{
+    color:#ffedda !important;
+    background-color:#9e1818 !important;
+}
+.chinese .showTimes{
+    width:80px;
+    height:80px;
+    margin:4px auto;
+    font-size: 3rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height:80px;
+    user-select: none;
+    border: 4px solid #f0a555;
+}
+.capsule .tag:empty{
+    display: none;
+}
+.kind .box{
+    width: 80%;
+    height:100%;
+    display: flex;
+}
+.source{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 0px 4px;
+    border-radius: 4px;
+    border: 2px solid #f39203;
+}
+.flex{
+    /* display: flex; */
+    float: left;
+}
+.photos-img{
+    display: inline-block !important;
+    margin:6px 4px;
+}
+.photos:hover{
+    animation: 1.2s border-transform infinite;
+}
+@media (min-width: 100px) and (max-width: 780px)  {
+    .capsule{
+        width:80%;
+        margin-top:3px;
+        margin-bottom: 3px;
+    }
+    .capsule .title{
+        margin-left: 4px;
+        font-size: 1.2em;
+    }
+    .capsule .tag{
+        height:10px;
+    }
+    .page-content, .content{
+        width:100%;
+    }
+    .kind a{
+        width:100%;
+        height:100%;
+        display:inline;
+    }
+    .kind .box{
+        display:block;
+    }
+    .kind .box>.tags>.tag{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .kind .title{
+        width:100%;
+        height:50%;
+        line-height: 30px;
+    }
+    .kind .tags{
+        display: flex;
+        width:100%;
+        height: 50%;
+    }
+    .kind .tag{
+        height:4vw;
+        font-size:0.5rem;
+        line-height: 4vw
+    }
+    .Course .mdl-card{
+        width: 96%;
+    }
+    .Course .mdl-list__item-text-body{
+        display: flex;
+    }
+}
