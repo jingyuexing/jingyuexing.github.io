@@ -70,8 +70,10 @@ main.config(['$routeProvider', function ($routeProvider) {
     }).when('/resource', {
         templateUrl: "tpls/resource.html",
         controller: "resCtrl"
-    })
-        .otherwise("/kind");
+    }).when('/tor', {
+        templateUrl: "tpls/tor.html",
+        controller:"torCtrl"
+    }).otherwise("/kind");
 }]);
 (function () {
     var str = /(kind|test|login|msg|home|yul|sport|hot|edu|user|wether|aboutme)/;
