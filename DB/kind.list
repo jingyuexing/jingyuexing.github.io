@@ -47,6 +47,7 @@
     { "link":"https://www.nosetime.com/", "name": "香水时代" ,"tag":["香水","测评","购物"]},
     { "link":"https://tio.run", "name": "TIO", "tag": ["IT","编程"] },
     { "link":"https://juejin.im", "name": "掘金", "tag": ["社区","IT"]},
+    { "link":"https://afdian.net/", "name": "爱发电", "tag": ["社区","创作"]},
     { "link":"https://ac.qq.com","name":"腾讯动漫","tag":["腾讯","漫画"]},
     { "link":"https://www.omegle.com/","name":"OMEGLE","tag":["talk","视频聊天","交友"]},
     { "link":"https://fruzo.com/","name":"FRUZO","tag":["talk","视频聊天","交友"]},

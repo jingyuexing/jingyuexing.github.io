@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="main" grayscale>
+<html lang="en" ng-app="main">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +9,14 @@
   <link rel="icon" href="./asset/img/FLASH.png">
   <link rel="stylesheet" href="asset/lib/material-design-icons/material-icons.css">
   <link rel="stylesheet" href="asset/lib/mdl/material.min.css">
-  <link rel="stylesheet" href="" id="themes">
   <script src="asset/lib/mdl/material.min.js"></script>
   <link rel="stylesheet" href="asset/css/style.css">
-  <script src="asset/lib/chart/chart.min.js"></script>
   <script src="framework/angular-1.7.5/angular.min.js"></script>
   <script src="framework/angular-1.7.5/angular-route.min.js"></script>
-  <script language="javascript" src="asset/lib/moment/moment.min.js"></script>
   <script src="src/main.js"></script>
   <script src="src/app.js"></script>
   <script src="src/require.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T4VFCV70BQ"></script>
 </head>
 
 <body>
@@ -33,16 +31,6 @@
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation. We hide it in small screens. -->
         <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
-                  mdl-textfield--floating-label mdl-textfield--align-right">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
-              <i class="material-icons">search</i>
-            </label>
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" ng-model="search" ng-change="searchItem()" name="sample"
-                id="fixed-header-drawer-exp">
-            </div>
-          </div>
         </nav>
       </div>
     </header>
@@ -51,16 +39,8 @@
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="#!/home"><i class="icon material-icons">home</i>首页</a>
         <a class="mdl-navigation__link" href="#!/user"><i class="icon material-icons">account_circle</i>用户</a>
-        <a href="#!/course" class="mdl-navigation__link">
-          <i class="icon material-icons">
-            school
-          </i> 课程
-        </a>
         <a class="mdl-navigation__link" href="#!/kind"><i class="icon material-icons">reorder</i>分类</a>
-        <a class="mdl-navigation__link" href="#!/data">数据</a>
-        <a class="mdl-navigation__link" href="#!/tor">🧅Tor link</a>
         <a class="mdl-navigation__link" href="#!/aboutme">关于我</a>
-        <a class="mdl-navigation__link" href="#!/apidocs">API Docs</a>
       </nav>
     </div>
     <!-- <div class="navbar">
@@ -68,36 +48,41 @@
       回到头部
     </div>
   </div> -->
-  <main class="mdl-layout__content" id="main_">
-    <div class="page-content" ng-view>
-    	<!-- my page content in here -->
-    </div>
-  </main>
-</div>
-<script type="text/javascript">
-var Ele = document.getElementById("main_");
-var bgList=["bg1.jpg","bg2.jpg","bg3.jpg","bg4.jpg","bg5.jpg"];
-var urlName=bgList[randomInt(bgList.length-1)];
-Ele.setAttribute("style",`background: url(asset/img/${urlName})`)
-</script>
-<script src="src/apidocs.js"></script>
-<script src="src/edu.js"></script>
-<script src="src/me.js"></script>
-<script src="src/tor.js"></script>
-<script src="src/testApp.js"></script>
-<script src="src/kind.js"></script>
-<script src="src/hot.js"></script>
-<script src="src/test.js"></script>
-<script src="src/me.js"></script>
-<script src="src/sport.js"></script>
-<script src="src/yul.js"></script>
-<script src="src/user.js"></script>
-<script src="src/scoreline.js"></script>
-<script src="src/msg.js"></script>
-<script src="src/login.js"></script>
-<script src="src/wether.js"></script>
-<script src="src/course.js"></script>
-<script src="src/data.js"></script>
-<script src="src/common.js"></script>
+    <main class="mdl-layout__content" id="main_">
+      <div class="page-content" ng-view>
+        <!-- my page content in here -->
+      </div>
+    </main>
+  </div>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-T4VFCV70BQ');
+  </script>
+  <script type="text/javascript">
+    var Ele = document.getElementById("main_");
+    var bgList = ["bg1.jpg", "bg2.jpg", "bg3.jpg", "bg4.jpg", "bg5.jpg"];
+    var urlName = bgList[randomInt(bgList.length - 1)];
+    Ele.setAttribute("style", `background: url(asset/img/${urlName})`)
+  </script>
+  <script src="src/edu.js"></script>
+  <script src="src/me.js"></script>
+  <script src="src/testApp.js"></script>
+  <script src="src/kind.js"></script>
+  <script src="src/hot.js"></script>
+  <script src="src/test.js"></script>
+  <script src="src/me.js"></script>
+  <script src="src/home.js"></script>
+  <script src="src/sport.js"></script>
+  <script src="src/yul.js"></script>
+  <script src="src/user.js"></script>
+  <script src="src/scoreline.js"></script>
+  <script src="src/msg.js"></script>
+  <script src="src/login.js"></script>
+  <script src="src/wether.js"></script>
+  <script src="src/source.js"></script>
 </body>
+
 </html>
