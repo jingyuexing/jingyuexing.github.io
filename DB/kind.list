@@ -7,6 +7,7 @@
     { "link":"https://www.baidu.com", "name": "百度", "tag": ["搜索引擎","🔍"] },
     { "link":"https://www.bing.com/?mkt=zh-cn", "name": "必应", "tag": ["搜索引擎","🔍"] },
     { "link":"https://www.ecosia.org/search", "name": "ecosia", "tag": ["搜索引擎","🔍"] },
+    { "link":"https://omegle.me/", "name":"Omegle.me", "tag":["random chat","video chat","anonymous chat"] },
     { "link":"https://magi.com","name":"Magi","tag":["搜索引擎","🔍"]},
     { "link":"https://www.asklib.com/","name":"问答库","tag":["搜索引擎","资料","🔍"]},
     { "link":"https://www.zqbook.top/","name":"智奇搜书","tag":["搜索引擎","图书","🔍"]},
